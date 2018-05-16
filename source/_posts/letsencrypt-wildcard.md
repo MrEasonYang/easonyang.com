@@ -45,7 +45,7 @@ LEXICON_NAMESILO_TOKEN=#{Applied from namesilo}
 Let's Encrypt 的证书每 3 个月需要续签一次，除了可以使用 amce.sh 自身的 cron 定时任务进行处理外，我们还可以手动设定 cron 命令，以满足如同时签发 ecc 证书等定制化需求。示例如下：
 
 ```sh
-0 0 1 * * cd cd /etc/lets-encrypt/eason-yang/ && ./acme.sh --renew --reloadcmd "nginx -s reload" -d eason-yang.com -d *.eason-yang.com --certhome /etc/lets-encrypt/eason-yang/rsa --dns dns_lexicon --dnssleep 960 --force 2>&1 | tee -a /etc/lets-encrypt/eason-yang/acme.log
+0 0 1 * * cd /etc/lets-encrypt/eason-yang/ && ./acme.sh --renew --reloadcmd "nginx -s reload" -d eason-yang.com -d *.eason-yang.com --certhome /etc/lets-encrypt/eason-yang/rsa --dns dns_lexicon --dnssleep 960 --force 2>&1 | tee -a /etc/lets-encrypt/eason-yang/acme.log
 ```
 
 Tips:
