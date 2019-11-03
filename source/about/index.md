@@ -17,7 +17,7 @@ GIthub: [MrEasonYang](https://github.com/MrEasonYang)
 
 #### 工作经历
 
-- 美团点评 / 后端研发 / 2017.7 ~ ?
+- 美团点评(北京) / 后端研发 / 2017.7 ~ ?
 
 ## 版权声明
 
