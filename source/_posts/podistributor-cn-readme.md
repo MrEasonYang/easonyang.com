@@ -6,8 +6,7 @@ tags: [播客, 开源]
 categories: [编程]
 keywords: [播客, podistributor, 分发, golang, github]
 ---
-# Podistributor
-基于 Golang 的播客分发程序。
+一个基于 Golang 的播客分发程序。
 Github Repo：[MrEasonYang/podistributor](https://github.com/MrEasonYang/podistributor)
 
 ## 特性
