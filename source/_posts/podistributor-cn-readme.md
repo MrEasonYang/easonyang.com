@@ -29,7 +29,7 @@ Github Repo：[MrEasonYang/podistributor](https://github.com/MrEasonYang/podistr
 首先按照 [SQL example](https://github.com/MrEasonYang/podistributor/blob/main/podistributor.sql) 将数据库和数据表结构导入 MySQL 实例中。
 
 随后使用 Golang 编译源码:
-
+<!--more-->
 ```shell
 CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o podistributor main.go
 chmod 773 podistributor
