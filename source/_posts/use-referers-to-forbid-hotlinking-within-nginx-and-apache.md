@@ -17,7 +17,7 @@ keywords: [nginx, apache, 防盗链, referers, nginx-accesskey]
     location  ~ .*\.(gif|jpg|jpeg|png|bmp|swf)$ {
         access_log   off;
         expires      1d;
-        valid_referers none blocked *.eason-yang.com server_names ~\.google\. ~\.baidu\. ~\.bing\. ~\.so\. ~\.sogou\.;
+        valid_referers none blocked *.easonyang.com server_names ~\.google\. ~\.baidu\. ~\.bing\. ~\.so\. ~\.sogou\.;
         if ($invalid_referer) {
             rewrite ^/ https://ooo.0o0.ooo/2016/09/10/57d379576fee1.jpg;
         }
@@ -29,7 +29,7 @@ keywords: [nginx, apache, 防盗链, referers, nginx-accesskey]
 
 - none ：请求头中来源为空
 - blocked ：请求头中有来源，但其内容被防火墙或代理代理服务器删除。这样的值不能以 “`http://`” or “`https://`”开头
-- `*.eason-yang.com` ：任意的字符串，可以使用 `*` 通配符，这里我指定为本站所有来源
+- `*.easonyang.com` ：任意的字符串，可以使用 `*` 通配符，这里我指定为本站所有来源
 - server_names 后面接 `~\.google\. ` 等：正则匹配常用搜索引擎域名，以放行搜索引擎的爬虫。除了搜索引擎，也可以按需添加。
 
 随后用 Nginx 的 if 判断当前请求来源是否合法，不合法则将所访问的内容重写到一个403图片中。此处需要注意的是这个图片最好放在站外的图床中，比如上面这张就放在了 [sm.ms](https://sm.ms) 中，这样做并不是为了节省流量，而是为了避免请求403图片时又来到了如上的验证中，出现循环验证与重写。如果不使用外部图床，其实还有两个方案：
@@ -42,7 +42,7 @@ keywords: [nginx, apache, 防盗链, referers, nginx-accesskey]
     location  ~ .*\.(gif|jpg|jpeg|png|bmp|swf)$ {
         access_log   off;
         expires      1d;
-        valid_referers none blocked *.eason-yang.com server_names ~\.google\. ~\.baidu\. ~\.bing\. ~\.so\. ~\.sogou\.;
+        valid_referers none blocked *.easonyang.com server_names ~\.google\. ~\.baidu\. ~\.bing\. ~\.so\. ~\.sogou\.;
         if ($invalid_referer) {
             #return 404;
     		return 403;
@@ -63,9 +63,9 @@ keywords: [nginx, apache, 防盗链, referers, nginx-accesskey]
     location  ~ .*\.(gif|jpg|jpeg|png|bmp|swf)$ {
         access_log   off;
         expires      1d;
-        valid_referers none blocked *.eason-yang.com server_names ~\.google\. ~\.baidu\. ~\.bing\. ~\.so\. ~\.sogou\.;
+        valid_referers none blocked *.easonyang.com server_names ~\.google\. ~\.baidu\. ~\.bing\. ~\.so\. ~\.sogou\.;
         if ($invalid_referer) {
-            rewrite ^/ https://eason-yang.com/403.jpg;
+            rewrite ^/ https://easonyang.com/403.jpg;
 #            rewrite ^/ https://ooo.0o0.ooo/2016/09/10/57d379576fee1.jpg;
         }
         root /var/www/hexo;                   
@@ -84,4 +84,4 @@ keywords: [nginx, apache, 防盗链, referers, nginx-accesskey]
 
 这种使用 referer 过滤非法访客的方法简单实用，能防止所有直接复制图片链接到自己网站进行使用的盗链方式，但是由于 referer 是从请求头中获取的，修改请求头是件再容易不过的事情了，因此只能说无法防住更高级的盗链，同时对爬虫也是束手无策。这时就要用些相对高级的方法，例如对不同的请求生成不同的 key ，从而杜绝非法请求，Nginx 有一个现成的模块实现了这种方式：[nginx-accesskey](http://wiki.nginx.org/images/5/51/Nginx-accesskey-2.0.3.tar.gz) （此模块似乎已经很久没有更新过了，只找到了几年前的2.0.3版）。
 
-本文由 [Eason Yang](https://eason-yang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://eason-yang.com/about/)。
+本文由 [Eason Yang](https://easonyang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://easonyang.com/about/)。

@@ -328,4 +328,4 @@ ImportError: No module named 'wox'
 
 解决上一个问题的时候发现有些用 Python 写的插件运行时会报上面这个错，只要在能正常运行的插件（比如默认安装的 HelloWorldPython ）目录中找到 wox.py 复制到报错插件的目录即可。
 
-本文由 [Eason Yang](https://eason-yang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://eason-yang.com/about/)。
+本文由 [Eason Yang](https://easonyang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://easonyang.com/about/)。

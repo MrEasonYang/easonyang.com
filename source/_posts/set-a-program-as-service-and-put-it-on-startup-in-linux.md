@@ -83,7 +83,7 @@ start
 ```
 [Unit]
 Description=Just a test
-Documentation=https://eason-yang.com
+Documentation=https://easonyang.com
 
 [Service]
 Type=simple
@@ -104,4 +104,4 @@ ExecStop=/program stop
 
 经过上面的配置后，我们只需要执行 `systemctl enable program-service` 这一条命令即可实现开机启动。
 
-本文由 [Eason Yang](https://eason-yang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://eason-yang.com/about/)。
+本文由 [Eason Yang](https://easonyang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://easonyang.com/about/)。

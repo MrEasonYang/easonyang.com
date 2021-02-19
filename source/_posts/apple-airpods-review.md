@@ -26,4 +26,4 @@ AirPods 已经重度使用了一段时间了，这篇文章来评一评这款耳
 3. **不能直接调节音量**：目前 AirPods 支持的手势有限，只能实现诸如「播放_暂停」、「上一首_下一首」和召唤 Siri 等功能，没有直接通过耳机调节音量的方法。
 4. **无线连接距离不足**：由于没有使用新的蓝牙协议，AirPods 的无线连接距离很有限，在公司接杯水的距离还尚可，想要戴着耳机去稍远点的卫生间可就必须要带着手机了，这是一个很令人遗憾的缺点。
 
-本文由 [Eason Yang](https://eason-yang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://eason-yang.com/about/)。
+本文由 [Eason Yang](https://easonyang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://easonyang.com/about/)。

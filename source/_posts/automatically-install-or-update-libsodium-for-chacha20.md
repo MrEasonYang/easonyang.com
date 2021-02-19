@@ -24,7 +24,7 @@ keywords: [chacha20, libsodium, linux, shell, 自动脚本, 运维]
 
 ## 获取最新版本版本号
 
-chacha20 的安装实际上就是编译安装 libsodium ，所以我们要设法获取到最新版本的版本号。在官网的 [下载页面](https://download.libsodium.org/libsodium/releases/) 观察一下就可以发现，这个列表与我之前在 [以自定义参数自动编译安装或升级Nginx脚本](https://eason-yang.com/2016/07/22/automatically-install-or-update-nginx-with-customed-compile-options/) 中分析 Nginx 官网下载页面的形式是完全一样所以直接借鉴 Nginx自动安装脚本代码来获取最新版本的版本号。<!--more-->
+chacha20 的安装实际上就是编译安装 libsodium ，所以我们要设法获取到最新版本的版本号。在官网的 [下载页面](https://download.libsodium.org/libsodium/releases/) 观察一下就可以发现，这个列表与我之前在 [以自定义参数自动编译安装或升级Nginx脚本](https://easonyang.com/2016/07/22/automatically-install-or-update-nginx-with-customed-compile-options/) 中分析 Nginx 官网下载页面的形式是完全一样所以直接借鉴 Nginx自动安装脚本代码来获取最新版本的版本号。<!--more-->
 
 ```sh
 check() {
@@ -65,7 +65,7 @@ get_latest_version() {
 
 ## 安装依赖
 
-本脚本主要针对比较主流的两种包管理，也就是 yum 和 apt 设置了自动安装依赖。原理与 [以自定义参数自动编译安装或升级Nginx脚本](https://eason-yang.com/2016/07/22/automatically-install-or-update-nginx-with-customed-compile-options/) 和 [判断 Linux 发行版](https://eason-yang.com/2016/07/23/get-linux-distribution-in-shell-script/) 中的解释是相同的。
+本脚本主要针对比较主流的两种包管理，也就是 yum 和 apt 设置了自动安装依赖。原理与 [以自定义参数自动编译安装或升级Nginx脚本](https://easonyang.com/2016/07/22/automatically-install-or-update-nginx-with-customed-compile-options/) 和 [判断 Linux 发行版](https://easonyang.com/2016/07/23/get-linux-distribution-in-shell-script/) 中的解释是相同的。
 
 ```sh
 yum-dependence() {
@@ -280,4 +280,4 @@ if [ "$latest_version" != "$current_version" ];then
 fi
 ```
 
-本文由 [Eason Yang](https://eason-yang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://eason-yang.com/about/)。
+本文由 [Eason Yang](https://easonyang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://easonyang.com/about/)。

@@ -128,4 +128,4 @@ BUG_REPORT_URL="http://bugs.launchpad.net/ubuntu/
 
 这个问题似乎没有完美的解决方案，最保险的做法就是综合这几种方法，多做几层判断，多考虑几种情况。
 
-本文由 [Eason Yang](https://eason-yang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://eason-yang.com/about/)。
+本文由 [Eason Yang](https://easonyang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://easonyang.com/about/)。

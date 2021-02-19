@@ -31,13 +31,13 @@ LEXICON_NAMESILO_TOKEN=#{Applied from namesilo}
 随后即可申请签发证书。在 Let's Encrypt 的 wildcard SSL 证书出现前，我的签发证书命令是这样的：
 
 ```sh
-./acme.sh --issue --reloadcmd "nginx -s reload" --dns dns_lexicon  --dnssleep 960 -d eason-yang.com -d www.eason-yang.com -d note.eason-yang.com -d search.eason-yang.com -d status.eason-yang.com -d wiki.eason-yang.com -d m.wiki.eason-yang.com -d up.wiki.eason-yang.com -d fonts.eason-yang.com -d jiathis.eason-yang.com -d v3.jiathis.eason-yang.com -d disqus.eason-yang.com -d s.jiathis.eason-yang.com -d gstatic.eason-yang.com -d easonyang.disqus.eason-yang.com -d disquscdn.eason-yang.com -d test.eason-yang.com -d i.eason-yang.com -d img.eason-yang.com -d file.eason-yang.com -d static.eason-yang.com --certhome /etc/lets-encrypt/eason-yang/rsa -f
+./acme.sh --issue --reloadcmd "nginx -s reload" --dns dns_lexicon  --dnssleep 960 -d easonyang.com -d www.easonyang.com -d note.easonyang.com -d search.easonyang.com -d status.easonyang.com -d wiki.easonyang.com -d m.wiki.easonyang.com -d up.wiki.easonyang.com -d fonts.easonyang.com -d jiathis.easonyang.com -d v3.jiathis.easonyang.com -d disqus.easonyang.com -d s.jiathis.easonyang.com -d gstatic.easonyang.com -d easonyang.disqus.easonyang.com -d disquscdn.easonyang.com -d test.easonyang.com -d i.easonyang.com -d img.easonyang.com -d file.easonyang.com -d static.easonyang.com --certhome /etc/lets-encrypt/easonyang/rsa -f
 ```
 
 而现在，命令可以简化如下：<!--more--> 
 
 ```sh
-./acme.sh --renew --reloadcmd "nginx -s reload" -d eason-yang.com -d *.eason-yang.com --certhome /etc/lets-encrypt/eason-yang/rsa --dns dns_lexicon --dnssleep 960 --force
+./acme.sh --renew --reloadcmd "nginx -s reload" -d easonyang.com -d *.easonyang.com --certhome /etc/lets-encrypt/easonyang/rsa --dns dns_lexicon --dnssleep 960 --force
 ```
 
 可以说大大精简了签发多域名证书的成本。另一方面，由于 Let's Encrypt 对签发失败的次数有明确的限制（https://letsencrypt.org/docs/rate-limits），在过去，如果因为配置问题导致续签任务执行失败，在签发域名过多的情况下是有可能达到签发频率上限造成一周内无法再次签发证书从而影响网站访问的。而在其 wildcard 证书出现后，这一问题终于得以缓解。
@@ -45,7 +45,7 @@ LEXICON_NAMESILO_TOKEN=#{Applied from namesilo}
 Let's Encrypt 的证书每 3 个月需要续签一次，除了可以使用 amce.sh 自身的 cron 定时任务进行处理外，我们还可以手动设定 cron 命令，以满足如同时签发 ecc 证书等定制化需求。示例如下：
 
 ```sh
-0 0 1 * * cd /etc/lets-encrypt/eason-yang/ && ./acme.sh --renew --reloadcmd "nginx -s reload" -d eason-yang.com -d *.eason-yang.com --certhome /etc/lets-encrypt/eason-yang/rsa --dns dns_lexicon --dnssleep 960 --force 2>&1 | tee -a /etc/lets-encrypt/eason-yang/acme.log
+0 0 1 * * cd /etc/lets-encrypt/easonyang/ && ./acme.sh --renew --reloadcmd "nginx -s reload" -d easonyang.com -d *.easonyang.com --certhome /etc/lets-encrypt/easonyang/rsa --dns dns_lexicon --dnssleep 960 --force 2>&1 | tee -a /etc/lets-encrypt/easonyang/acme.log
 ```
 
 Tips:
@@ -70,4 +70,4 @@ SSL Labs 的测试仍然是 A+ 得分：
 - [Dns Lexicon](https://github.com/AnalogJ/lexicon)
 - [开始使用 ECC 证书](https://imququ.com/post/ecc-certificate.html)
 
-本文由 [Eason Yang](https://eason-yang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://eason-yang.com/about/)。
+本文由 [Eason Yang](https://easonyang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://easonyang.com/about/)。

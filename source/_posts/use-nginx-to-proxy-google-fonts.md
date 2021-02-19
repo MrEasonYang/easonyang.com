@@ -17,7 +17,7 @@ keywords: [Nginx, Hexo, google fonts, proxy, 反代]
 server {
 	listen       80;
 	listen       [::]:80;
-	server_name  fonts.eason-yang.com;
+	server_name  fonts.easonyang.com;
 
 	location ^~ /.well-known/acme-challenge/ {
 		default_type "text/plain";
@@ -29,9 +29,9 @@ server {
 server {
 	listen       443 ssl;
 	listen       [::]:443 ssl;
-	server_name  fonts.eason-yang.com;
-	ssl_certificate      /etc/lets-encrypt/eason-yang/eason-yang.chained.crt;
-	ssl_certificate_key  /etc/lets-encrypt/eason-yang/eason-yang.com.key;
+	server_name  fonts.easonyang.com;
+	ssl_certificate      /etc/lets-encrypt/easonyang/easonyang.chained.crt;
+	ssl_certificate_key  /etc/lets-encrypt/easonyang/easonyang.com.key;
 	ssl_session_cache    shared:SSL:1m;
 	ssl_session_timeout  5m;
 
@@ -43,7 +43,7 @@ server {
 		proxy_pass https://fonts.googleapis.com;
 		proxy_buffering off;
 
-		proxy_cookie_domain fonts.googleapis.com fonts.eason-yang.com;
+		proxy_cookie_domain fonts.googleapis.com fonts.easonyang.com;
 		proxy_redirect https://fonts.googleapis.com/ /;
 
 		proxy_set_header X-Real_IP $remote_addr;
@@ -52,7 +52,7 @@ server {
 		proxy_set_header referer "https://fonts.googleapis.com$request_uri";
 
 		subs_filter_types text/css text/xml text/javascript;
-		subs_filter fonts.googleapis.com fonts.eason-yang.com;
+		subs_filter fonts.googleapis.com fonts.easonyang.com;
 	}
 
 	location ^~ /.well-known/acme-challenge/ {
@@ -67,7 +67,7 @@ server {
 server {
 	listen       80;
 	listen       [::]:80;
-	server_name  gstatic.eason-yang.com;
+	server_name  gstatic.easonyang.com;
 
 	location ^~ /.well-known/acme-challenge/ {
 		default_type "text/plain";
@@ -79,9 +79,9 @@ server {
 server {
 	listen       443 ssl;
 	listen       [::]:443 ssl;
-	server_name  gstatic.eason-yang.com;
-	ssl_certificate      /etc/lets-encrypt/eason-yang/eason-yang.chained.crt;
-	ssl_certificate_key  /etc/lets-encrypt/eason-yang/eason-yang.com.key;
+	server_name  gstatic.easonyang.com;
+	ssl_certificate      /etc/lets-encrypt/easonyang/easonyang.chained.crt;
+	ssl_certificate_key  /etc/lets-encrypt/easonyang/easonyang.com.key;
 	ssl_session_cache    shared:SSL:1m;
 	ssl_session_timeout  5m;
 
@@ -93,7 +93,7 @@ server {
 		proxy_pass https://fonts.gstatic.com;
 		proxy_buffering off;
 
-		proxy_cookie_domain fonts.gstatic.com gstatic.eason-yang.com;
+		proxy_cookie_domain fonts.gstatic.com gstatic.easonyang.com;
 		proxy_redirect https://fonts.gstatic.com/ /;
 
 		proxy_set_header X-Real_IP $remote_addr;
@@ -102,7 +102,7 @@ server {
 		proxy_set_header referer "https://fonts.gstatic.com$request_uri";
 
 		subs_filter_types text/css text/xml text/javascript;
-		subs_filter fonts.gstatic.com gstatic.eason-yang.com;
+		subs_filter fonts.gstatic.com gstatic.easonyang.com;
 	}
 
 	location ^~ /.well-known/acme-challenge/ {
@@ -112,4 +112,4 @@ server {
 }
 ```
 
-本文由 [Eason Yang](https://eason-yang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://eason-yang.com/about/)。
+本文由 [Eason Yang](https://easonyang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://easonyang.com/about/)。

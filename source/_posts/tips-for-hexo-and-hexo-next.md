@@ -88,7 +88,7 @@ deploy:
   branch: master
 ```
 
-不过这个功能隐藏的问题在于 Git 账户认证问题，部署时输入密码是难以接受的，所以应该在本机配置好公钥与私钥，参见 [为Git设置SSH公钥及私钥](https://eason-yang.com/2016/07/31/set-ssh-identity-file-for-git) 。
+不过这个功能隐藏的问题在于 Git 账户认证问题，部署时输入密码是难以接受的，所以应该在本机配置好公钥与私钥，参见 [为Git设置SSH公钥及私钥](https://easonyang.com/2016/07/31/set-ssh-identity-file-for-git) 。
 
 # NexT 主题
 
@@ -153,4 +153,4 @@ search:
 
 随后我们需要设置新菜单项的图标，在 http://www.fontawesome.com.cn/faicons/ 找到需要的图标后，添加到主题配置文件的 menu_icons 下，键名与 menu 中的对应，例如：`links: globe` ，这样一来，我们就成功添加了一个自定义菜单项。
 
-本文由 [Eason Yang](https://eason-yang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://eason-yang.com/about/)。
+本文由 [Eason Yang](https://easonyang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://easonyang.com/about/)。

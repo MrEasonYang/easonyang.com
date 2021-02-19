@@ -2,6 +2,9 @@
 title: console.log
 date: 2016-10-18 15:23:09
 ---
+## 2021
+
+- 1月20日：改用 easonyang.com 域名，切换至 [icarus](https://github.com/ppoffice/hexo-theme-icarus) 主题
 
 ## 2018
 

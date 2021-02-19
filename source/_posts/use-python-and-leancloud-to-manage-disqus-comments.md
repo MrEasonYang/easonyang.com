@@ -69,7 +69,7 @@ DISQUS_API_KEY = 'Enter your disqus api key'
 update_cql = 'UPDATE Counter SET comments = ? WHERE objectId = ?'
 more = True
 cursor = ''
-disqus_api = 'https://disqus.eason-yang.com/api/3.0/threads/list.json?forum=' + FORUM_NAME + '&api_key=' + DISQUS_API_KEY + '&limit=100&cursor='
+disqus_api = 'https://disqus.easonyang.com/api/3.0/threads/list.json?forum=' + FORUM_NAME + '&api_key=' + DISQUS_API_KEY + '&limit=100&cursor='
 
 while (more):
     response = urllib2.urlopen(disqus_api + cursor)
@@ -112,7 +112,7 @@ for item in leancloud_data:
 update_cql = 'UPDATE Counter SET comments = ? WHERE objectId = ?'
 more = True
 cursor = ''
-disqus_api = 'https://disqus.eason-yang.com/api/3.0/threads/list.json?forum=' + FORUM_NAME + '&api_key=' + DISQUS_API_KEY + '&limit=100&cursor='
+disqus_api = 'https://disqus.easonyang.com/api/3.0/threads/list.json?forum=' + FORUM_NAME + '&api_key=' + DISQUS_API_KEY + '&limit=100&cursor='
 
 while (more):
     response = urllib2.urlopen(disqus_api + cursor)
@@ -193,4 +193,4 @@ disqus_shortname: your_shotname
 
 至此本文的目标就全部达成了。
 
-本文由 [Eason Yang](https://eason-yang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://eason-yang.com/about/)。
+本文由 [Eason Yang](https://easonyang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://easonyang.com/about/)。

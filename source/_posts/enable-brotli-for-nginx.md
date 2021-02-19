@@ -134,6 +134,6 @@ apt-get install autoconf automake libtool
 - https://tools.keycdn.com/brotli-test
 - 用浏览器或抓包查看请求头是否包含 `Content-Encoding: br`
 
-注：对于本站来说，由于主站采用了较为严格的访客过滤规则，很难直接利用这些工具进行测试。开放 https://test.eason-yang.com 供测试使用。
+注：对于本站来说，由于主站采用了较为严格的访客过滤规则，很难直接利用这些工具进行测试。开放 https://test.easonyang.com 供测试使用。
 
-本文由 [Eason Yang](https://eason-yang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://eason-yang.com/about/)。
+本文由 [Eason Yang](https://easonyang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://easonyang.com/about/)。

@@ -41,4 +41,4 @@ keywords: [Mybatis, xml配置文件, Java, Intellij Idea, 工具, maven, 教程]
 
 此项目按照之前的配置是可以在 Eclipse 系 IDE 中正常使用的，但是如果移植到 Intellij Idea 中则需要做一些改动。根据 https://stackoverflow.com/questions/31076576/xml-files-are-not-copied-to-target-intellij-idea 中的一些回答，对于 Maven 和 Gradle 来说 xml 等文件的位置有可能是硬性规定。所以为了方便起见，使用 Intellij Idea 的项目应该尽量将 IDE 无法自动识别载入到 Project Structure 中的配置文件和其他类型的文件放到 Resources 目录下。除了上述默认的几种类型，还可以通过[这里的说明](https://www.jetbrains.com/help/idea/2016.2/compiler.html)添加其他类型。
 
-本文由 [Eason Yang](https://eason-yang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://eason-yang.com/about/)。
+本文由 [Eason Yang](https://easonyang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://easonyang.com/about/)。

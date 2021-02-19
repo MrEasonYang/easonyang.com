@@ -39,4 +39,4 @@ smc -stop
 
 这是 SEP 几年前旧版本中的一个漏洞，在随后的新版本中早已得到修护。我们可以从这个漏洞中看到，在编程时需要考虑一些配置信息的隐藏和权限控制问题（尤其注意早期版本 windows 的注册表），防止通过简单地修改注册表或配置文件即可停止程序主体服务的情况发生。
 
-本文由 [Eason Yang](https://eason-yang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://eason-yang.com/about/)。
+本文由 [Eason Yang](https://easonyang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://easonyang.com/about/)。

@@ -28,7 +28,7 @@ rsync 支持两种同步方式，一种是使用自带的守护进程运行一�
 
 ## 配置账户及 SSH
 
-为了安全起见，我们在目标服务器中新建一个用户，`adduser receiver` ，用 passwd 设置好密码后参照 [为Git设置SSH公钥及私钥](https://eason-yang.com/2016/07/31/set-ssh-identity-file-for-git/) 配置好公钥和私钥。
+为了安全起见，我们在目标服务器中新建一个用户，`adduser receiver` ，用 passwd 设置好密码后参照 [为Git设置SSH公钥及私钥](https://easonyang.com/2016/07/31/set-ssh-identity-file-for-git/) 配置好公钥和私钥。
 
 配置公钥私钥的原因在于我们希望避免同步的时候提示输入账户密码，然而如果在使用 `ssh-keygen` 生成密钥时添加了密码（passphrase），那么我们在每一次使用密钥进行同步的时候仍然会被要求手动输入密码，下面提供几种解决方案：
 
@@ -85,4 +85,4 @@ rsync -avz -e "ssh -p 2333 -i /home/sender/.ssh/rsync_account_rsa" /from/* rsync
 
 其实还可以将证书目录做为一个 Git 仓库，这样容灾服务器只要每次 pull 一下就可以了，但是这样做就要添加任务计划才能实现自动化，稍微有些不方便。具体的使用方法只有第一步和最后一步不同，配置 SSH 的方法都是相同的，这里不再赘述。
 
-本文由 [Eason Yang](https://eason-yang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://eason-yang.com/about/)。
+本文由 [Eason Yang](https://easonyang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://easonyang.com/about/)。

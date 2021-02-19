@@ -9,7 +9,7 @@ keywords: [Mybatis, Spring, Spring MVC, Java, Intellij Idea, 工具, maven, 教�
 
 ## 创建 Spring & SpringMVC 项目
 
-参考前文：[在Intellij Idea中使用Maven创建Spring&SpringMVC项目](https://eason-yang.com/2016/08/03/use-maven-to-create-a-spring-springmvc-project-in-intellijidea/) 
+参考前文：[在Intellij Idea中使用Maven创建Spring&SpringMVC项目](https://easonyang.com/2016/08/03/use-maven-to-create-a-spring-springmvc-project-in-intellijidea/) 
 
 ## 添加 Mybatis Maven 依赖
 
@@ -77,7 +77,7 @@ keywords: [Mybatis, Spring, Spring MVC, Java, Intellij Idea, 工具, maven, 教�
 
 dataSource 这个 bean 根据需要自行配置，在 class 处指定连接池，然后在下面的属性中配置好数据库连接，当然这里可以用一个 properties 文件来存储数据库配置信息方便复用和管理。
 
-sqlSessionFactory 这个 bean 极为重要，类似于 Hibernate 的 SessionFactory ，是要注入到程序中的，我们要在这里至少配置好数据源和配置文件位置（也就是刚才新建的 mybatis.xml 的位置），而对于 Intellij Idea 来说，还需要配置好配置文件位置（ Eclipse 系非必需步骤），此处有需要注意内容，参见：[Mybatis的*Mapper.xml文件在Intellij Idea项目中的正确位置](https://eason-yang.com/2016/08/13/the-right-location-of-mapper-xml-for-mybatis-in-intellijidea/)
+sqlSessionFactory 这个 bean 极为重要，类似于 Hibernate 的 SessionFactory ，是要注入到程序中的，我们要在这里至少配置好数据源和配置文件位置（也就是刚才新建的 mybatis.xml 的位置），而对于 Intellij Idea 来说，还需要配置好配置文件位置（ Eclipse 系非必需步骤），此处有需要注意内容，参见：[Mybatis的*Mapper.xml文件在Intellij Idea项目中的正确位置](https://easonyang.com/2016/08/13/the-right-location-of-mapper-xml-for-mybatis-in-intellijidea/)
 
 最后在配置 bean 中配置好要扫描的 mapper 接口包和刚才的 sqlSessionFactory。配置文件到此结束。
 
@@ -140,4 +140,4 @@ public class UserServiceImpl implements UserService {
 
 至此，Mybatis 已配置完毕，我们只要使用 @Autowired 或 @Resource 注解将 UserService 注入就可以进行数据查询了。
 
-本文由 [Eason Yang](https://eason-yang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://eason-yang.com/about/)。
+本文由 [Eason Yang](https://easonyang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://easonyang.com/about/)。

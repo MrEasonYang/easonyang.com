@@ -29,7 +29,7 @@ Google Analytics 加载缓慢是本博客在国内访问缓慢的原因之一。
 ```nginx
     userid on;
     userid_name cid;
-    userid_domain eason-yang.com;
+    userid_domain easonyang.com;
     userid_path /;
     userid_expires max;
 ```
@@ -91,7 +91,7 @@ location @tracker {
 
 ```nginx
     location / {
-        root /var/www/hexo/eason-yang.com/blog;                   
+        root /var/www/hexo/easonyang.com/blog;                   
 
         if (-f $request_filename) {                                            
             post_action @tracker;
@@ -152,4 +152,4 @@ location @tracker {
 - https://support.google.com/analytics/answer/1034832?hl=zh-Hans
 - http://bluewhale.cc/tag/filter
 
-本文由 [Eason Yang](https://eason-yang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://eason-yang.com/about/)。
+本文由 [Eason Yang](https://easonyang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://easonyang.com/about/)。
