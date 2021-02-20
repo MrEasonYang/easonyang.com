@@ -15,6 +15,8 @@ Github Repo：[MrEasonYang/podistributor](https://github.com/MrEasonYang/podistr
 - 异步转发请求至统计服务，以解耦用户请求和数据统计，可方便地接入多个数据统计服务或替换失效的统计服务。
 - 内建针对数据库的本地缓存层以提供高性能的服务并降低攻击流量带来的影响。
 - 内建基于 Prometheus 的监控和统计系统。
+
+
 ## 快速开始
 
 ### 环境要求
