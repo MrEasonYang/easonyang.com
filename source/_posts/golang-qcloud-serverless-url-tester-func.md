@@ -17,6 +17,7 @@ keywords: [serverless, 腾讯云, telegram, telegram bot, golang, 弹活, 拨测
    ```shell
    CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build main.go
    ```
+<!--more-->
 
 3. 程序依赖腾讯云中的全局变量配置来获取目标 URL 集合配置和 Telegram API 配置，在腾讯云的管理平台中按如下格式设置即可：
    - **config**: [{"URL": "<目标 URL 1>","ExpectedStatusCode": 200},{"URL": "<目标 URL 2>","ExpectedStatusCode": 403}]
