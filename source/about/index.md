@@ -13,7 +13,9 @@ Email: me#easonyang.com
 
 Twitter:  [mr_easonyang](https://twitter.com/mr_easonyang)
 
-GIthub: [MrEasonYang](https://github.com/MrEasonYang)
+Github: [MrEasonYang](https://github.com/MrEasonYang)
+
+微信公众号: 举一得一(ju1de1)
 
 #### 工作经历
 
@@ -25,7 +27,7 @@ GIthub: [MrEasonYang](https://github.com/MrEasonYang)
 
 ## 支持本站
 
-本站主站部署于阿里云新加坡，另有多个备份及分流服务器，如果您正在选购VPS、服务器或域名，那么欢迎您通过我的 AFF 来购买服务以同时支持本站：
+本站主站部署于腾讯云香港，另有多个备份及分流服务器，如果您正在选购VPS、服务器或域名，那么欢迎您通过我的 AFF 来购买服务以同时支持本站：
 
 - DigitalOcean（稳定服务商，推荐其对象存储服务）：[AFF购买](https://m.do.co/c/ab0c4d638c92)
 - Vultr（推荐新加坡、洛杉矶节点）：[新用户20美元限时优惠](http://www.vultr.com/?ref=6932266-3B) [普通 AFF 购买](http://www.vultr.com/?ref=6892455)
