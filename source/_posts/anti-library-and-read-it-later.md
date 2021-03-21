@@ -17,7 +17,7 @@ keywords: [Antilibrary, 稍后阅读, 稍后再读, pocket, instapaper]
 日语中有一个词叫做「積ん読」，罗马字为 「Tsundoku」，通常译为「积读」，指的是买了大量的书，堆积如山却没读几本，这样的行为是不是与我们对待「稍后再读」和「收藏按钮」的态度类似？比起「积读」，我更愿意将其称为「收藏者悖论」，即看到似乎有意思的东西就想收藏，但收藏了又不再去看，使得收藏行为更像是把信息丢到了一个自己永远不会涉足的黑洞之中。
 
 对于这一问题，Charles Chu 在 The Collector’s Fallacy: Why We Gather Things We Don’t Need 一文中给出了如下的解决方案：
-
+<!--more-->
 - "Own" Before You Collect: 先掌握再收集
 - Do A Monthly Purge: 每月进行一次清理
 - Measure, Measure, Measure: 不断进行衡量与取舍
