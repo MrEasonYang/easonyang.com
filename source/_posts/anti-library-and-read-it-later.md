@@ -20,7 +20,7 @@ keywords: [Antilibrary, 稍后阅读, 稍后再读, pocket, instapaper]
 <!--more-->
 - "Own" Before You Collect: 先掌握再收集
 - Do A Monthly Purge: 每月进行一次清理
-- Measure, Measure, Measure: 不断进行衡量与取舍
+- Measure, Measure, Measure: 不断进行权衡与取舍
 
 这样的解决方案下，我们实际要杜绝稍后再看行为，当时事当时毕，精读完成再收集为资料而不是丢到 To-do list 之中。配合上制度性的整理和内容自省，确实能很好地避免「積ん読」问题。
 
