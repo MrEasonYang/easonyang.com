@@ -20,6 +20,8 @@ Github: [MrEasonYang](https://github.com/MrEasonYang)
 
 简历投递: yangyuchen03#meituan.com
 
+微信：[realEasonYang](https://gmiimg.com/957b885562f45611bed91407e1cebf2c.jpg)
+
 
 #### 工作经历
 
