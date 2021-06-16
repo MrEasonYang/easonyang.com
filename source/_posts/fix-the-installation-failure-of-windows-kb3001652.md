@@ -25,7 +25,7 @@ Visual Studio 2015
 
 在 https://www.microsoft.com/en-us/download/details.aspx?id=48217 下载该补丁后安装，安装到一半提示：
 
-![error](fix-the-installation-failure-of-windows-kb3001652/cannot-find-vc_red.png)
+![error](https://gmiimg.com/2d16d0c6216f824184b7030102c9d688.png)
 
 同时提示我可以到 `C:\2364710792f81b5c062a9f3a` 目录下去查找 vc_red.msi ，然而我并没有这个目录，这时合理猜测一下可能是之前安装某个类似工具的时候后我误删了该文件夹或该工具残留了部分安装信息，导致现在安装别的工具在该路径下找不到这个 vc_red.msi。
 
@@ -33,7 +33,7 @@ Google 到这个 vc_red.msi 是 [Microsoft Visual C++ 2010 Redistributable Packa
 
 尝试用神器 Everything 查找一下 vc_red.msi 东西还不少：
 
-![everything](fix-the-installation-failure-of-windows-kb3001652/everything.png)
+![everything](https://gmiimg.com/1332934a9503d9b4920719851bb1991f.png)
 
 随意打开一个日志文件：
 
@@ -108,6 +108,6 @@ MSI (c) (10:E0) [13:14:36:961]: ******* RunEngine:
 
 在 Windows 更新中也不再提示该补丁的安装，问题得以解决。
 
-![result](fix-the-installation-failure-of-windows-kb3001652/result.png)
+![result](https://gmiimg.com/8737ab9bdaeb857db69bf7ea8b8ab5e0.png)
 
 本文由 [Eason Yang](https://easonyang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://easonyang.com/about/)。

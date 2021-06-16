@@ -156,7 +156,7 @@ hibernate.format_sql=true
 
 数据库 test 中有表 user：
 
-![table](use-maven-to-create-a-hibernate-spring-springmvc-project-in-intellijidea/table.png)
+![table](https://gmiimg.com/ca912a7371a5d7878df76272ba412e85.png)
 
 于是我们在 Sources Root 下新建以下文件：
 
@@ -259,10 +259,10 @@ index.jsp
 
 最后的文件树如下：
 
-![files-tree](use-maven-to-create-a-hibernate-spring-springmvc-project-in-intellijidea/files-tree.png)
+![files-tree](https://gmiimg.com/cf073d888d2d99c4a8d2771218af7cd2.png)
 
 运行结果如下：
 
-![result](use-maven-to-create-a-hibernate-spring-springmvc-project-in-intellijidea/result.png)
+![result](https://gmiimg.com/52a361be6d143a55acafcfef7129b81d.png)
 
 本文由 [Eason Yang](https://easonyang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://easonyang.com/about/)。

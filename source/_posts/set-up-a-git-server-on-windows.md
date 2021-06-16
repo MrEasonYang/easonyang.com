@@ -7,8 +7,6 @@ categories: 运维
 date: 2016-07-31 14:36:42
 ---
 
-
-
 由于最近要在一个仅装有 Windows 的无外网环境下写一个小项目，无法连接我自己建在远程服务器上的 Git Server，所以在 Windows 下临时简单搭建一个 Git 服务器来做版本控制。
 
 ## 给 Windows 安装 SSH 服务器
