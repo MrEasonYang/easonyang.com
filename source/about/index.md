@@ -8,7 +8,7 @@ date: 2016-09-09 15:12:47
 本博客由杨宇晨创作及维护，着重于记录一些工作学习中遇到的技术问题及实践，也有少部分生活相关的记录。
 
 
-#### 联系方式
+### 联系方式
 
 Email: me#easonyang.com
 
@@ -16,14 +16,14 @@ Twitter:  [mr_easonyang](https://twitter.com/mr_easonyang)
 
 Github: [MrEasonYang](https://github.com/MrEasonYang)
 
-微信公众号: 举一得一(ju1de1)
-
-简历投递: yangyuchen03#meituan.com
+微信公众号: [举一得一(ju1de1)](https://gmiimg.com/1cd4c5fc01d45d4c2ebef30169748c98.jpg)
 
 微信：[realEasonYang](https://gmiimg.com/957b885562f45611bed91407e1cebf2c.jpg)
 
+简历投递: yangyuchen03#meituan.com
 
-#### 工作经历
+
+### 工作经历
 
 - 美团(北京) / 高级后端研发工程师 / 2017.7 ~ ?
 
