@@ -19,27 +19,27 @@ date: 2016-07-31 14:36:42
 
 安装后在主界面点击 Open easy settings：
 
-![click-open-easy-setting](set-up-a-git-server-on-windows/main-window.png)
+![click-open-easy-setting](https://gmiimg.com/0f71fe55a45215eeb2fa2b07aee13804.png)
 
 打开后我们可以看到在第一项 Server setting 中可以设置 SSH 的端口号及防火墙，
 
-![server-setting](set-up-a-git-server-on-windows/server.png)
+![server-setting](https://gmiimg.com/3d248e62da17a66fd317c8a9f1901b08.png)
 
 在第二项中可以添加 windows 用户来登陆 SSH ，如果你的团队习惯于使用 Windows 系列软件工作，那么设置一下相关账户也是不错的选择。
 
-![windows-account](set-up-a-git-server-on-windows/windows-account.png)
+![windows-account](https://gmiimg.com/77d928199651937280a6666f1812b087.png)
 
 第三项是添加虚拟账户，也就是将 SSH 账户的认证与管理交给 Bitvise。方便起见我们选择使用虚拟账户。
 
-![virtual-account](set-up-a-git-server-on-windows/virtual-account.png)
+![virtual-account](https://gmiimg.com/6a3f0c832d6e038c09490cf43089945c.png)
 
 点击 add 后我们就可以设置一个新的虚拟账户，其实和 Linux 下的选项差不多，只是变成了图形化界面。必须要填写的是账户名、密码或公钥，注意如果想要避免以后再 Git 的使用中不停地输入密码，那么公钥的配置是必须的。随后在 Shell access type 中选择 Git access only，这样就可以具体设置 Git 信息，并在一定程度上限制这个用户使用 Shell 的权限以提高安全性。
 
-![add-virtual-account](set-up-a-git-server-on-windows/add-virtual-account.png)
+![add-virtual-account](https://gmiimg.com/c0511fbe45ca6ed86d2c154acd5c7e1d.png)
 
 Git type 根据你这台 Git 服务器上安装的 Git 类型选择，本文使用 Git for Windows，也就是 msysgit 。将 Git binaries directory 指定到 Git for Windows 的安装目录下的 `\mingw64\bin` 位置。Git repository root directory 指定到 Git 仓库的根目录，注意是根目录而不是仓库的具体目录，例如位于 D:\git\project 的 Git 仓库的根目录应该指定为 D:\git 。其余选项根据需要自行设置即可。点击 OK 并 Save changes 保存上述设置。
 
-![set-git-for-virtual-account](set-up-a-git-server-on-windows/set-git-for-virtual-account.png)
+![set-git-for-virtual-account](https://gmiimg.com/0e8f417759f0759a6d231b3537399c74.png)
 
 ## 开始使用 Git 服务器
 
