@@ -26,7 +26,7 @@ updated: 2017-01-20 10:35:39
 
 参见 [《Hexo的NexT主题个性化：添加文章阅读量》](http://www.jeyzhang.com/hexo-next-add-post-views.html) 一文中的 [配置 LeanCloud 部分](http://www.jeyzhang.com/hexo-next-add-post-views.html#配置LeanCloud) ，注册 LeanCloud 并初始化应用。此后，我们的博客中每篇文章的信息已经通过参考文章中的方法保存到了同一张表中，因此我们只需要对这张表添加几个字段，就可以在实现本文目的的同时，避免使用 LeanCloud API 分别查询两个表的数据所带来的不必要的请求。Counter 表的字段如下图：<!--more-->
 
-![table.png](use-python-and-leancloud-to-manage-disqus-comments/table.png)
+![table.png](https://gmiimg.com/81118f2eef7a152432e1d77ff9ebe018.png)
 
 对于不使用 LeanCloud 来统计访问量的读者，则应该根据参考文章中的方法，修改下文中的代码，为其添加初始化文章信息的功能。
 
@@ -34,11 +34,11 @@ updated: 2017-01-20 10:35:39
 
 随后我们注册一个 Disqus 账号并点击右上角的 Admin ：
 
-![click-admin.png](use-python-and-leancloud-to-manage-disqus-comments/click-admin.png)
+![click-admin.png](https://gmiimg.com/a07ae53bd0913f49a758e2f4f860b699.png)
 
 接着新建一个站点：
 
-![new-site.png](use-python-and-leancloud-to-manage-disqus-comments/new-site.png)
+![new-site.png](https://gmiimg.com/d93faeffa00c7c9690080a1a52fde90d.png)
 
 然后参照 [How to create an API application](https://help.disqus.com/customer/portal/articles/787016-how-to-create-an-api-application) 为其开启使用 API 的权限，记下 api_key ，准备工作就完成了。
 

@@ -57,11 +57,11 @@ Tips:
 
 Chrome 上可以看到证书已经加上了 wildcard 的 DNS 项：
 
-![chrome-ssl](./letsencrypt-wildcard/chrome-ssl.png)
+![chrome-ssl](https://gmiimg.com/8ad4c45ec67e64f1390f43e8c54ce930.png)
 
 SSL Labs 的测试仍然是 A+ 得分：
 
-![ssllabs-test](./letsencrypt-wildcard/ssllabs-test.png)
+![ssllabs-test](https://gmiimg.com/0d004cc71e7b937c652fedff71f9a289.png)
 
 ## 参考资料
 

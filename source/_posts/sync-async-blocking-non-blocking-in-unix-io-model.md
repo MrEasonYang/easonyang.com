@@ -66,7 +66,7 @@ keywords:
 
 五大模型的比较如下图：
 
-![5-io-model-comparison.png](sync-async-blocking-non-blocking-in-unix-io-model/5-io-model-comparison.png)
+![5-io-model-comparison.png](https://gmiimg.com/7046fa84784d8b5a6c690b2ee7fbf49c.png)
 
 可以看到，除了「异步 I/O 模型」在第二阶段
 

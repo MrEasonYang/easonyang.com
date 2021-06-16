@@ -73,7 +73,7 @@ SSLStaplingCache shmcb:/tmp/stapling_cache(128000)
 
 访问 `https://www.ssllabs.com/ssltest/` ，输入欲测试的域名，稍等片刻后，如果发现结果中出现如下内容则证明已成功开启 OCSP Stapling ：
 
-![ssllabs](/enable-ocsp-stapling/ssllabs.png)
+![ssllabs](https://gmiimg.com/217027b89fb80f0db1a20d8d59d32a92.png)
 
 ### 手动验证
 
