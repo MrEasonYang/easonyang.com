@@ -18,37 +18,37 @@ keywords: [Spring, Spring MVC, Java, Intellij Idea, 工具, maven, 教程]
 
 点击 File > New > Project > Maven，勾选 Create from archetype 并在列表中选择 maven-archetype-webapp 。<!--more-->
 
-![archetype](use-maven-to-create-a-spring-springmvc-project-in-intellijidea/archetype.png)
+![archetype](https://gmiimg.com/465c8d0215a4d2c47d094f2ca32b2147.png)
 
 随后的步骤自行设置：
 
-![](use-maven-to-create-a-spring-springmvc-project-in-intellijidea/maven-1.png)
+![](https://gmiimg.com/221db40a9bd889a30c2d56837735be85.png)
 
-![](use-maven-to-create-a-spring-springmvc-project-in-intellijidea/maven-2.png)
+![](https://gmiimg.com/1e1153f72482d5c35b477c199161cddd.png)
 
-![](use-maven-to-create-a-spring-springmvc-project-in-intellijidea/maven-3.png)
+![](https://gmiimg.com/05548986e931481ad580298eb2d8c610.png)
 
 随后Maven 会根据默认的 pom.xml 自动导入依赖，为了方便以后 Maven 在我们修改了 pom.xml 后能自动开始配置依赖，我们可以点击 Enable Auto-import 。
 
-![maven-downloading-dependencies](use-maven-to-create-a-spring-springmvc-project-in-intellijidea/maven-downloading-dependencies.png)
+![maven-downloading-dependencies](https://gmiimg.com/e53c1116ccd0aa38ba51fc2045bc7f77.png)
 
-![maven-downloaded-dependencies](use-maven-to-create-a-spring-springmvc-project-in-intellijidea/maven-downloading-dependencies.png)
+![maven-downloaded-dependencies](https://gmiimg.com/e1350d2f19a5d94243e08cd64a5486e9.png)
 
 Maven 处理完依赖之后就可以配置 Tomcat 来查看效果了。点击右上角的下拉箭头，然后点击加号配置一个新的 Tomcat ，当然也可以使用别的容器。
 
-![](use-maven-to-create-a-spring-springmvc-project-in-intellijidea/set-tomcat-1.png)
+![](https://gmiimg.com/eda48effaed076e8378df268793daeec.png)
 
-![](use-maven-to-create-a-spring-springmvc-project-in-intellijidea/set-tomcat-2.png)
+![](https://gmiimg.com/12c05537f49a4c1423583cac88441f64.png)
 
 在此界面中点击 Deployment 标签页，添加一个新的 Artifact。非正式项目选择 war 或者 war exploded 都可以。
 
-![](use-maven-to-create-a-spring-springmvc-project-in-intellijidea/set-tomcat-3.png)
+![](https://gmiimg.com/15d0ced5e1e211d6a9ccd746ababdbf8.png)
 
-![](use-maven-to-create-a-spring-springmvc-project-in-intellijidea/set-tomcat-4.png)
+![](https://gmiimg.com/8c284fe5720d1378d3b6276a9915e170.png)
 
 随后就可以运行服务器，得到的下过如下：
 
-![test-java-web-project](use-maven-to-create-a-spring-springmvc-project-in-intellijidea/test-java-web-project.png)
+![test-java-web-project](https://gmiimg.com/cf2570535fac20e0ae772fecde7e7d0f.png)
 
 至此一个 Java Web 项目配置完毕。
 
@@ -300,7 +300,7 @@ Maven 处理完依赖之后就可以配置 Tomcat 来查看效果了。点击右
 
 在 main 目录下创建 java 目录（命名随意），此时是无法直接在其中创建包或者 Java 类的，我们必须先将 java 目录设置为代码根目录。右击 java 目录，在 Mark Directory As 中选择第一个 Source Root 。
 
-![set-source-root](use-maven-to-create-a-spring-springmvc-project-in-intellijidea/set-source-root.png)
+![set-source-root](https://gmiimg.com/6138fa05092debb9d662423f3c478100.png)
 
 随后在其中新建包 `com.sys.springandspringmvc.controller` ，并在包中新建 IndexController 类。内容可以按下面的写：
 
@@ -323,12 +323,12 @@ public class IndexController {
 
 最后的目录结构如下：
 
-![project-list](use-maven-to-create-a-spring-springmvc-project-in-intellijidea/project-list.png)
+![project-list](https://gmiimg.com/53f94a7631bdb0cc700159d2cd9b9ccd.png)
 
 ## 测试
 
 运行 Tomcat ，访问 http://127.0.0.1:8080 ，可正常访问，至此整个项目搭建完成。
 
-![final-test](use-maven-to-create-a-spring-springmvc-project-in-intellijidea/final-test.png)
+![final-test](https://gmiimg.com/4fec304016c1ae6bc56406b37b26a911.png)
 
 本文由 [Eason Yang](https://easonyang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://easonyang.com/about/)。
