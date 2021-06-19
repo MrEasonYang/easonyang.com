@@ -147,9 +147,9 @@ location @tracker {
 
 虽然我们可以通过设定更加复杂的 Nginx 配置，来实现过滤特定请求进而避免这些无用数据如 404 页面被发往 Google Analytics 的情况发生，但我们完全可以使用更加方便、高效的 Google Analytics 过滤器来满足各种过滤需求，详细配置参见 Google 的官方文档：
 
-- https://support.google.com/analytics/answer/1034823?hl=zh-Hans
-- https://support.google.com/analytics/answer/1034380?hl=zh-Hans
-- https://support.google.com/analytics/answer/1034832?hl=zh-Hans
-- http://bluewhale.cc/tag/filter
+- [https://support.google.com/analytics/answer/1034823?hl=zh-Hans](https://support.google.com/analytics/answer/1034823?hl=zh-Hans)
+- [https://support.google.com/analytics/answer/1034380?hl=zh-Hans](https://support.google.com/analytics/answer/1034380?hl=zh-Hans)
+- [https://support.google.com/analytics/answer/1034832?hl=zh-Hans](https://support.google.com/analytics/answer/1034832?hl=zh-Hans)
+- [http://bluewhale.cc/tag/filter](http://bluewhale.cc/tag/filter)
 
 本文由 [Eason Yang](https://easonyang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://easonyang.com/about/)。
