@@ -49,5 +49,3 @@ IdentityFile /c/Users/用户名/.ssh/id_rsa_b
 
 * 由于 Windows 的目录也就是文件夹名称是允许空格存在的，而 Windows 下的 Git 客户端都是按照 Linux 的无空格标准来执行的，所以你的私钥如果保存到了带空格的文件夹下，就无法正常使用私钥登陆。此时只要把私钥移动至路径无空格的目录下，然后修改 config 文件中的 IdentityFile 为新路径即可。
 * IdentityFile 的值需要填写 Linux 下的路径格式，如 `/c/Users/eason/.ssh` 而不能是 windows 下的 `C:\Users\eason\.ssh` 。
-
-本文由 [Eason Yang](https://easonyang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://easonyang.com/about/)。

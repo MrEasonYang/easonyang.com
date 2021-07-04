@@ -62,5 +62,3 @@ if (/.*a.test.com\/job.html\?id=\d+.*/g.test(url)) {
 ```
 
 细心的读者会发现，matches 键所对的值与上文正则中的 URL 是高度一致的，实际上通过这个设置我们就可以实现仅在指定页面加载 content_script.js 的需求，避免冗余加载的问题。此外，如果你的脚本中引用了其他 JS 文件（如 jquery 、Vue 等）的话，还需要将相应文件加入到上述配置的 JS 键的值中方可生效。
-
-本文由 [Eason Yang](https://easonyang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://easonyang.com/about/)。

@@ -84,5 +84,3 @@ rsync -avz -e "ssh -p 2333 -i /home/sender/.ssh/rsync_account_rsa" /from/* rsync
 ## 后记
 
 其实还可以将证书目录做为一个 Git 仓库，这样容灾服务器只要每次 pull 一下就可以了，但是这样做就要添加任务计划才能实现自动化，稍微有些不方便。具体的使用方法只有第一步和最后一步不同，配置 SSH 的方法都是相同的，这里不再赘述。
-
-本文由 [Eason Yang](https://easonyang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://easonyang.com/about/)。

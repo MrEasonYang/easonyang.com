@@ -101,8 +101,5 @@ Github：https://github.com/HFO4/shudong-share
 
 一款开源的图片管理系统，实际上也可以用作图床，一直在更新，自身功能很强大，还支持二次开发插件及扩展来丰富功能，此外这套系统也支持 Docker 。
 
-GIthub：https://github.com/electerious/Lychee
+Github：https://github.com/electerious/Lychee
 
-
-
-本文由 [Eason Yang](https://easonyang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://easonyang.com/about/)。

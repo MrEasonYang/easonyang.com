@@ -152,5 +152,3 @@ search:
 首先要在主题设置中的 menu 下新增一个值，如：`links: /url-of-links` ，此时前台可以看到新菜单项已经被成功添加，但是内容却是 menu.links ，menu 前缀的出现是缘于 hexo NexT 无法在语言文件中找到 links 对应的值，所以我们只需要在主题的 language 目录下找到站点所使用的语言文件，并在 menu 下添加 `links: 友情链接` 即可去掉 menu 前缀。
 
 随后我们需要设置新菜单项的图标，在 http://www.fontawesome.com.cn/faicons/ 找到需要的图标后，添加到主题配置文件的 menu_icons 下，键名与 menu 中的对应，例如：`links: globe` ，这样一来，我们就成功添加了一个自定义菜单项。
-
-本文由 [Eason Yang](https://easonyang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://easonyang.com/about/)。

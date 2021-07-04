@@ -139,5 +139,3 @@ public class UserServiceImpl implements UserService {
 ## 测试
 
 至此，Mybatis 已配置完毕，我们只要使用 @Autowired 或 @Resource 注解将 UserService 注入就可以进行数据查询了。
-
-本文由 [Eason Yang](https://easonyang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://easonyang.com/about/)。

@@ -83,5 +83,3 @@ keywords: [nginx, apache, 防盗链, referers, nginx-accesskey]
 ## 后记
 
 这种使用 referer 过滤非法访客的方法简单实用，能防止所有直接复制图片链接到自己网站进行使用的盗链方式，但是由于 referer 是从请求头中获取的，修改请求头是件再容易不过的事情了，因此只能说无法防住更高级的盗链，同时对爬虫也是束手无策。这时就要用些相对高级的方法，例如对不同的请求生成不同的 key ，从而杜绝非法请求，Nginx 有一个现成的模块实现了这种方式：[nginx-accesskey](http://wiki.nginx.org/images/5/51/Nginx-accesskey-2.0.3.tar.gz) （此模块似乎已经很久没有更新过了，只找到了几年前的2.0.3版）。
-
-本文由 [Eason Yang](https://easonyang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://easonyang.com/about/)。
