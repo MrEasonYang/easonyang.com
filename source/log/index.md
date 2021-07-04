@@ -4,7 +4,7 @@ date: 2016-10-18 15:23:09
 ---
 ## 2021
 
-- 7月5日：切换至 [Even](https://github.com/ahonn/hexo-theme-even) 主题，并按需进行了样式和功能的优化
+- 7月5日：切换至 [Even](https://github.com/ahonn/hexo-theme-even) 主题，并按需进行了样式和功能的优化，弃用 Disqus ，改用 [utteranc](https://utteranc.es/)
 - 6月18日：加入公众号相关推广
 - 6月16日：重新启用加入不蒜子请求计数统计
 - 1月20日：改用 easonyang.com 域名，切换至 [icarus](https://github.com/ppoffice/hexo-theme-icarus) 主题
