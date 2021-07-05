@@ -100,7 +100,7 @@ keywords: [hexo, theme, even, 主题, 优化]
 # 给文末加个小广告
 虽然影响阅读体验，而且我个人也不喜欢微信公众号的封闭，但最近还是打算给文章的结尾都加上个微信公众号的二维码，大部分主题都没有直接支持，需要额外开发。
 
-对于本款主题，首先可以新增模块 `even/layout/_partial/_post/custom-footer.swig` ，这样我们就能在这里使用 HTML 随意定制文末的样式。
+对于本款主题，首先可以新增模版 `even/layout/_partial/_post/custom-footer.swig` ，这样我们就能在这里使用 HTML 随意定制文末的样式。
 
 随后在 `even/layout/_macro/post.swig` 中的版权模块下引入 `custom-footer.swig` 即可：
 
@@ -144,4 +144,4 @@ keywords: [hexo, theme, even, 主题, 优化]
 ```
 
 # 总结
-总体来说这款主题选用了 hexo 主题实现中常见的 Swig 和 Scss ，对于主题场景来说比之前使用的 [hexo-theme-icarus](https://github.com/ppoffice/hexo-theme-icarus) 的 React 实现要好上手得多。同时目前该项目还在不断接受 PR 和进行小幅迭代，未来还是值得期待的。后面也会把本文涉及的改动通过 PR 或 fork 的形式整理出来供需要的朋友直接使用。
+总体来说这款主题选用了 hexo 主题实现中常见的 Swig 和 Sass ，对于主题场景来说比之前使用的 [hexo-theme-icarus](https://github.com/ppoffice/hexo-theme-icarus) 的 React 实现要好上手得多。同时目前该项目还在不断接受 PR 和进行小幅迭代，未来还是值得期待的。后面也会把本文涉及的改动通过 PR 或 fork 的形式整理出来供需要的朋友直接使用。
