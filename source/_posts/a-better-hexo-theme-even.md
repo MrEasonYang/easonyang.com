@@ -6,10 +6,10 @@ tags: [hexo]
 categories: [教程]
 keywords: [hexo, theme, even, 主题, 优化]
 ---
-最近经常看到 Hugo 用户使用 [hugo-theme-even](https://themes.gohugo.io/themes/hugo-theme-even/) 主题搭建的博客，简洁的外观和明亮的配色很快吸引了我。随手一搜发现 Hexo 下也有同款主题，马上就给本博客换上了。不过对我个人而言，这款简洁的主题的一些小细节不能使我满意，于是就动手做了些小优化。
+最近经常看到 Hugo 用户使用 [hugo-theme-even](https://themes.gohugo.io/themes/hugo-theme-even/) 主题搭建的博客，简洁的外观和明亮的配色很快吸引了我。随手一搜发现 Hexo 下也有同款主题，就马上给本博客换上了。不过对我个人而言，这款简洁的主题的一些小细节不能使我满意，于是就动手做了些小优化。
 <!--more-->
 # 更丰富的图标库
-此款主题使用的是作者自定义的 iconfont 图标库，如其 FAQ 所述，新的图标需要作者的额外支持，目前支持如下图标：
+此款主题使用的是作者自定义的 iconfont 图标库，如其 FAQ 所述，加入新的图标需要作者的额外支持，目前支持如下图标：
 
 - email
 - stack-overflow
