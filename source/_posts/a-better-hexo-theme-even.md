@@ -144,4 +144,4 @@ keywords: [hexo, theme, even, 主题, 优化]
 ```
 
 # 总结
-总体来说这款主题选用了 hexo 主题实现中常见的 Swig 和 Sass ，对于主题场景来说比之前使用的 [hexo-theme-icarus](https://github.com/ppoffice/hexo-theme-icarus) 的 React 实现要好上手得多。同时目前该项目还在不断接受 PR 和进行小幅迭代，未来还是值得期待的。后面也会把本文涉及的改动通过 PR 或 fork 的形式整理出来供需要的朋友直接使用。
+总体来说这款主题选用了 hexo 主题实现中常见的 Swig 和 Sass ，对于主题场景来说比之前使用的 [hexo-theme-icarus](https://github.com/ppoffice/hexo-theme-icarus) 的 React 实现要好上手得多。同时目前该项目还在不断接受 PR ，并一直有小幅迭代，未来还是值得期待的。后面我也会把本文涉及的改动通过 PR 或 fork 的形式整理出来供需要的朋友直接使用。
