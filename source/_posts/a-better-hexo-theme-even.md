@@ -116,13 +116,13 @@ keywords: [hexo, theme, even, 主题, 优化]
       {#- Reward -#}
       {%- include "../_partial/_post/reward.swig" -%}
     {%- endif -%}
-> 		...
+ 		...
 ```
 
 # 让标题更明显些
-我有个不太好的写作习惯，那就是文章的大章节会使用一级标题（对应到 Markdown 就是 # ），这就导致在本款主题下，文章标题与章节标题傻傻分不清楚。
+我有个不太好的写作习惯，那就是文章的大章节标题会使用一级标题（对应到 Markdown 就是 # ），这就导致在本款主题的默认样式下，文章标题与章节标题傻傻分不清楚。
 
-对于这个问题作者提供了 `even/source/css/_custom/_custom.scss` 提供了 CSS 重写的功能，但由于懒得去找对应的 class 及其 CSS 定义，我在这里简单粗暴地选择使用 `!important` 来强制覆盖：
+对于这个问题，作者在 `even/source/css/_custom/_custom.scss` 提供了 CSS 重写的功能。但由于懒得去找对应的 class 及其 CSS 定义，我直接简单粗暴地选择使用 `!important` 来强制覆盖：
 
 ```
 .emphasized-title {
