@@ -35,7 +35,7 @@ brew install flomo
 
 ## 使用
 ### 配置
-访问 [Flomo 个人配置页面](https://flomoapp.com/mine?source=incoming_webhook) 以获取个人的开放 API ，随后执行以下命令配置 API 到 flomo-cli 中:
+访问 [Flomo 个人配置页面](https://flomoapp.com/mine?source=incoming_webhook) 以获取个人的开放 API ，执行以下命令配置 API 到 flomo-cli 中:
 ```shell
 flomo set api ${Flomo API}
 ```
