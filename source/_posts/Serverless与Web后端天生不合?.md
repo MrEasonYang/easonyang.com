@@ -9,7 +9,7 @@ keywords: [serverless, faas, 后端]
 ---
 Serverless/Faas/BaaS 等概念在这几年的技术圈中是绝对的热点词汇之一，国内外众多云厂商也纷纷推出自家的 Serverless 和函数计算产品，微信也依托腾讯云推出了基于 Serverless 和 FaaS 理念的「小程序·云开发」，对应的新型岗位也不断涌现。
 
-如今，我们确实看到很多中小型业务在拓展新领域、开发新功能时会优先考虑使用 Serverless 产品作为后端架构基建，但却鲜有见到面向 C 端的一线大厂中，有核心业务在 Web 后端层面改为采用 Serverless 作为开发模式，这又是何缘由呢？
+如今，我们确实看到很多中小型业务在拓展新领域、开发新功能时会优先考虑使用 Serverless 产品作为后端架构基建，但却鲜有见到面向 C 端的一线大厂中，有核心业务在 Web 后端层面改为采用 Serverless 作为开发模式，这又是何缘由呢？<!--more-->
 
 # 什么是Serverless
 作为业界 Serverless 和 FaaS 领域的先锋，Amazon 的 Serverless 产品页面对 Serverless 作出了这样的定义：

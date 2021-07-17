@@ -10,7 +10,7 @@ keywords: [letsencrypt, wildcard, ssl, http, acme.sh, 证书]
 
 ## 背景
 
-去年看到 Let's Encrypt 宣布将在 2018 年支持 wildcard SSL 证书的消息时就一阵兴奋，虽然后来跳票了一次，但最终还是于前段时间正式支持了。本文将使用 acme.sh 这个小工具来体验下此项特性。
+去年看到 Let's Encrypt 宣布将在 2018 年支持 wildcard SSL 证书的消息时就一阵兴奋，虽然后来跳票了一次，但最终还是于前段时间正式支持了。本文将使用 acme.sh 这个小工具来体验下此项特性。<!--more--> 
 
 ## 签发证书
 
@@ -35,7 +35,7 @@ LEXICON_NAMESILO_TOKEN=#{Applied from namesilo}
 ./acme.sh --issue --reloadcmd "nginx -s reload" --dns dns_lexicon  --dnssleep 960 -d easonyang.com -d www.easonyang.com -d note.easonyang.com -d search.easonyang.com -d status.easonyang.com -d wiki.easonyang.com -d m.wiki.easonyang.com -d up.wiki.easonyang.com -d fonts.easonyang.com -d jiathis.easonyang.com -d v3.jiathis.easonyang.com -d disqus.easonyang.com -d s.jiathis.easonyang.com -d gstatic.easonyang.com -d easonyang.disqus.easonyang.com -d disquscdn.easonyang.com -d test.easonyang.com -d i.easonyang.com -d img.easonyang.com -d file.easonyang.com -d static.easonyang.com --certhome /etc/lets-encrypt/easonyang/rsa -f
 ```
 
-而现在，命令可以简化如下：<!--more--> 
+而现在，命令可以简化如下：
 
 ```sh
 ./acme.sh --renew --reloadcmd "nginx -s reload" -d easonyang.com -d *.easonyang.com --certhome /etc/lets-encrypt/easonyang/rsa --dns dns_lexicon --dnssleep 960 --force

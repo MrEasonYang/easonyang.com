@@ -16,7 +16,7 @@ Github Repo：[MrEasonYang/podistributor](https://github.com/MrEasonYang/podistr
 - 异步转发请求至统计服务，以解耦用户请求和数据统计，可方便地接入多个数据统计服务或替换失效的统计服务。
 - 内建针对数据库的本地缓存层以提供高性能的服务并降低攻击流量带来的影响。
 - 内建基于 Prometheus 的监控和统计系统。
-
+<!--more-->
 
 ## 快速开始
 
@@ -31,7 +31,7 @@ Github Repo：[MrEasonYang/podistributor](https://github.com/MrEasonYang/podistr
 首先按照 [SQL example](https://github.com/MrEasonYang/podistributor/blob/main/podistributor.sql) 将数据库和数据表结构导入 MySQL 实例中。
 
 随后使用 Golang 编译源码:
-<!--more-->
+
 ```shell
 CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o podistributor main.go
 chmod 773 podistributor
