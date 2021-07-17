@@ -46,13 +46,13 @@ Memo 即 flomo 概念下的笔记，只需在各类终端工具的命令行中�
 flomo save ${Your memo content}
 ```
 ### 设置 alias
-为了防止只使用 `flomo` 单个命令带来的误输入风险，目前 memo 的保存操作必须结合 `save` 关键字来进行。但如果你想简化输入，可以在 zsh/bash 等的配置文件中加入 alias 配置即可，示例如下：
+为了防止只使用 `flomo` 单个命令带来的误输入风险，目前 memo 的保存操作必须结合 `save` 关键字来进行。但如果你想简化输入，那么只需要在 zsh/bash 等 shell 的配置文件中新增 alias 即可，示例如下：
 ```shell
 alias flomo="flomo save" 
 ```
 
 ## 共享代码
-由于 flomo 方面目前开放的 API 较少，本工具整体的功能还很简单。欢迎大家通过 PR 的形式来完善本工具或加入新的想法，PR 形式不限，提前做好 lint 即可。
+由于 flomo 侧目前开放的 API 较少，本工具整体的功能还很简单。欢迎大家通过 PR 的形式来完善本工具或加入新的想法，PR 形式不限，提 PR 前做好 lint 即可。
 
 ## 协议
 [MIT](https://github.com/MrEasonYang/flomo-cli/blob/main/LICENSE)
