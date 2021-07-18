@@ -10,12 +10,12 @@ keywords: [flomo, flomo-cli, GitHub, 开源]
 ## 什么是 flomo-cli
 这是一款可以在命令行中将笔记和想法保存到 [flomo](https://flomoapp.com/) 的工具。
 基于 Golang 实现，可通过 Homebrew 便捷安装。
-Github Repo：[https://github.com/MrEasonYang/flomo-cli](https://github.com/MrEasonYang/flomo-cli)<!--more-->
+Github Repo：[https://github.com/MrEasonYang/flomo-cli](https://github.com/MrEasonYang/flomo-cli)
 
 ## 功能
 - 一行命令即可创建 flomo 笔记。
 - 支持编辑器模式，可使用 vim/neovim/emacs 创建笔记。
-- 支持 shell 管道，快速保存文件或过滤结果。
+- 支持 shell 管道，快速保存文件或过滤结果。<!--more-->
 
 ## 安装
 ### 从源码编译安装
