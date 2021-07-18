@@ -15,6 +15,7 @@ Github Repo：[https://github.com/MrEasonYang/flomo-cli](https://github.com/MrEa
 ## 功能
 - 一行命令即可创建 flomo 笔记。
 - 支持编辑器模式，可使用 vim/neovim/emacs 创建笔记。
+- 支持 shell 管道，快速保存文件或过滤结果。
 
 ## 安装
 ### 从源码编译安装
@@ -48,6 +49,11 @@ flomo set api ${Flomo API}
 Memo 即 flomo 概念下的笔记，只需在各类终端工具的命令行中输入以下命令即可
 ```shell
 flomo save ${Your memo content}
+```
+### Shell 管道
+Flomo-cli 如常见程序一样，支持以管道的数据重定向内容作为笔记内容，可借助 `cat` 等命令快速保存文件等内容：
+```shell
+cat memo.txt | flomo
 ```
 ### 编辑器模式
 除了直接在命令行中输入，flomo-cli 也支持使用编辑器进行笔记编写和保存，只需要执行以下命令即可：
