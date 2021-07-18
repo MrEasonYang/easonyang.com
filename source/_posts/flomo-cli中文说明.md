@@ -12,6 +12,10 @@ keywords: [flomo, flomo-cli, GitHub, 开源]
 基于 Golang 实现，可通过 Homebrew 便捷安装。
 Github Repo：[https://github.com/MrEasonYang/flomo-cli](https://github.com/MrEasonYang/flomo-cli)<!--more-->
 
+## 功能
+- 一行命令即可创建 flomo 笔记。
+- 支持编辑器模式，可使用 vim/neovim/emacs 创建笔记。
+
 ## 安装
 ### 从源码编译安装
 保证环境中已安装 1.16 版本以上的 Golang ，执行以下命令即可：
@@ -45,13 +49,33 @@ Memo 即 flomo 概念下的笔记，只需在各类终端工具的命令行中�
 ```shell
 flomo save ${Your memo content}
 ```
-### 设置 alias
+### 编辑器模式
+除了直接在命令行中输入，flomo-cli 也支持使用编辑器进行笔记编写和保存，只需要执行以下命令即可：
+```shell
+# Open vim to compose the memo.
+flomo vim 
+
+# Open neovim to compose the memo.
+flomo nvim 
+
+# Open emacs to compose the memo.
+flomo emacs
+```
+目前 flomo-cli 只对 `vim/neovim/emacs` 进行了支持, 输入其他内容将抛出异常以避免任意执行带来的安全问题。
+### 清理临时文件
+编辑器模式的实现思路是在接收到命令时调用指定编辑器对 `~/.flomo-tmp` 目录的临时文件进行编辑并一直等待，当用户退出时停止等待并加载临时文件的内容以作为笔记发送至 flomo ，最后将临时文件删除。
+这样一来，如果存在并发调用或强制终止 flomo-cli ，临时文件的删除工作可能就会没有完成，进而造成临时文件堆积占用磁盘空间。对于这一问题可以执行以下命令一键清理临时文件：
+```shell
+flomo clear
+```
+
+## 设置 alias
 为了防止只使用 `flomo` 单个命令带来的误输入风险，目前 memo 的保存操作必须结合 `save` 关键字来进行。但如果你想简化输入，那么只需要在 zsh/bash 等 shell 的配置文件中新增 alias 即可，示例如下：
 ```shell
 alias flomo="flomo save" 
 ```
 
-## 共享代码
+## 贡献代码
 由于 flomo 侧目前开放的 API 较少，本工具整体的功能还很简单。欢迎大家通过 PR 的形式来完善本工具或加入新的想法，PR 形式不限，提 PR 前做好 lint 即可。
 
 ## 协议
