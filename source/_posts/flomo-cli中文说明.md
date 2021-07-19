@@ -45,7 +45,7 @@ brew install flomo
 flomo set api ${Flomo API}
 ```
 随后 flomo-cli 将会在用户目录生成名为 `.flomo-cli.config` 的隐藏文件，该文件的权限为 0600 。
-### 保存Memo
+### 一键保存
 Memo 即 flomo 概念下的笔记，只需在各类终端工具的命令行中输入以下命令即可
 ```shell
 flomo save ${Your memo content}
