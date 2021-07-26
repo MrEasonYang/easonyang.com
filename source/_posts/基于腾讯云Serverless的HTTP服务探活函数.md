@@ -7,10 +7,10 @@ tags: [工具, 开源]
 categories: [编程]
 keywords: [serverless, 腾讯云, scf, telegram, telegram bot, golang, 探活, HTTP拨测]
 ---
-本文基于 Golang 开发了一款简单易用的 HTTP 拨测云函数，入口函数与腾讯云 Serverless SCF SDK 绑定。与目前腾讯云中默认的拨测函数不同的是， url-tester-func 支持非 200 响应码作为预期值且通知机制由邮件变更为了 Telegram Bot 。使用者借助腾讯云提供的免费 Serverless 调用配额即可搭建一套简单的 HTTP 接口探活服务。
+本文基于 Golang 开发了一款简单易用的 HTTP 拨测云函数，入口函数与腾讯云 Serverless SCF SDK 绑定。与目前腾讯云中默认的拨测函数不同的是， url-tester-func 支持将非 200 响应码作为预期值且通知机制由邮件变更为了 Telegram Bot 。使用者借助腾讯云提供的免费 Serverless 调用配额即可搭建一套简单的 HTTP 接口探活服务。
 
 ## 功能
-- 周期性探测指定 HTTP 地址是否可正常响应，并将非正常的探测结果发送至指定 Telegram 对话中
+- 周期性探测指定 HTTP 地址是否可正常响应，并将非正常的探测结果发送至指定 Telegram 对话中以实现近乎实时地异步监控网站状态
 - 基于腾讯云 Serverless SCF ，部署简单且零成本
 
 ## 项目地址
