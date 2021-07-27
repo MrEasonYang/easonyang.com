@@ -56,15 +56,32 @@ keywords: [serverless, 腾讯云, scf, telegram, telegram bot, golang, 探活, H
 Failed to test URL https://foo.foo due to error Get "https://foo.foo": dial tcp: lookup foo.foo on 10.10.10.10:53: read udp 10.10.10.10:5180->10.10.10.10:53: i/o timeout
 ```
 
-### Todo
+## Todo
 未来还考虑支持腾讯云之外的 Serverless 平台，包括但不限于：
 - 阿里云 Serverless
 - AWS Lambda
 - Azure Serverless
 - GCP Serverless
 
-### 贡献代码
+## 贡献代码
 欢迎大家通过 PR 的形式来完善本工具或加入新的想法，PR 形式不限，提 PR 前做好 lint 即可。
+
+## 费用说明
+在实际使用中，是否会产生费用其实是与探测的「地址数量」和探测的「频次」是正相关的。
+
+腾讯云 SCF 在公测结束后，对免费额度进行了调整，本工具比较容易触发的费用模式主要是「外网出流量计费」，可以参考官方的文档。
+
+由于外网出流量计出不计入，所以探测的逻辑中只有在发起 HTTP 请求时会被计量，接受响应则不会。因此在「地址数量」和「频次」均不高的时候，造成的费用非常低，在账单中会被校准为 0 元。但大规模使用的场景下则会累积较大量的外网出流量，造成事实上的费用，目前的费用标准是 0.8 元/GB 。
+
+那么用量的「高」和「低」该如何判断呢？这里以我个人的使用经验来给大家举例作为参考：
+- 函数量：1 个
+- 监测地址数：5 个
+- 监测频次：每 5 分钟请求一次
+- 发送 TG 量：由于我手下有个站点不太稳定，通常一个月会产生 100+ 的发送量
+
+腾讯云账单如下，即产生 0.06 元费用，校准后实际收费为 0 元：
+![腾讯云账单](https://gmiimg.com/4865b1cbc976589f50f331bda007383a.png)
+大家可以此为根据，假设流量和示例是线性关系来判断自己的用量是否会产生费用。
 
 ### 协议
 [MIT](https://github.com/MrEasonYang/url-tester-func/blob/main/LICENSE)
