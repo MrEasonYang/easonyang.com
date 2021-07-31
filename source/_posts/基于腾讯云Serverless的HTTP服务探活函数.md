@@ -10,7 +10,9 @@ keywords: [serverless, 腾讯云, scf, telegram, telegram bot, golang, 探活, H
 本文基于 Golang 开发了一款简单易用的 HTTP 拨测云函数，入口函数与腾讯云 Serverless SCF SDK 绑定。与目前腾讯云中默认的拨测函数不同的是， url-tester-func 支持将非 200 响应码作为预期值且通知机制由邮件变更为了 Telegram Bot 。使用者借助腾讯云提供的免费 Serverless 调用配额即可搭建一套简单的 HTTP 接口探活服务。
 
 ## 功能
-- 周期性探测指定 HTTP 地址是否可正常响应，并将非正常的探测结果发送至指定 Telegram 对话中以实现近乎实时地异步监控网站状态
+- 周期性探测指定 HTTP 地址是否可正常响应，并将非正常的探测结果发送至指定即时通讯工具的对话中以实现近乎实时地异步监控网站状态
+- 支持将 Telegram/Server酱 V1(微信)/Server酱 V2(微信)/Qmsg酱 (QQ，支持单聊及群聊)
+- 可识别的包含 Bot 信息的自定义 User-Agent (url-tester-func BOT)
 - 基于腾讯云 Serverless SCF ，部署简单且零成本
 
 ## 项目地址
@@ -39,9 +41,48 @@ keywords: [serverless, 腾讯云, scf, telegram, telegram bot, golang, 探活, H
 
 #### 配置环境变量
 程序依赖腾讯云中的全局变量配置来获取目标 URL 集合配置和 Telegram API 配置，在腾讯云的管理平台中按如下格式设置即可：
-- **config**: [{"URL": "<目标 URL 1>","ExpectedStatusCode": 200},{"URL": "<目标 URL 2>","ExpectedStatusCode": 403}]
-- **token**: Telegram 机器人的 API Token ，在创建机器人时 BotFather 会直接以消息形式返回，可参考官方 [FAQ](https://telegra.ph/Awesome-Telegram-Bot-11-11) 来获取
-- **chatID**: 消息发送的目标聊天（群），必须已经与 Telegram 机器人绑定，可参照 Telegram 文档从其 updates 接口中获取，可参考[此文](https://stackoverflow.com/questions/32423837/telegram-bot-how-to-get-a-group-chat-id)获取
+- **config**: 
+配置结构：
+  1. url: 测试的目标 URL
+	2. expectedStatusCode: 期望 URL 返回的 HTTP 响应码，除此之外的相应码均将触发失败消息提醒。
+	3. notifyMethod: 通知方式，应设置为 telegram/ftqq_v1/ftqq_v2/qmsg_chat/qmsg_group_chat 中的某一个。
+
+
+示例:
+```json
+[
+    {
+        "url": "<Target URL 1 with Telegram Notifier>",
+        "expectedStatusCode": 200,
+        "notifyMethod": "telegram"
+    },
+    {
+        "url": "<Target URL 2 with FtqqV1 Notifier>",
+        "expectedStatusCode": 403,
+        "notifyMethod": "ftqq_v1"
+    },
+    {
+        "url": "<Target URL 3 with FtqqV2 Notifier>",
+        "expectedStatusCode": 400,
+        "notifyMethod": "ftqq_v2"
+    },
+    {
+        "url": "<Target URL 4 with Qmsg Notifier>",
+        "expectedStatusCode": 301,
+        "notifyMethod": "qmsg_chat"
+    },
+    {
+        "url": "<Target URL 4 with Qmsg Group Notifier>",
+        "expectedStatusCode": 200,
+        "notifyMethod": "qmsg_group_chat"
+    },
+]
+```
+- **telegram_token(使用 Telegram 时必填)**: Telegram 机器人的 API Token ，在创建机器人时 BotFather 会直接以消息形式返回，可参考官方 [FAQ](https://telegra.ph/Awesome-Telegram-Bot-11-11) 来获取
+- **telegram_chat_id(使用 Telegram 时必填)**: 消息发送的目标聊天（群），必须已经与 Telegram 机器人绑定，可参照 Telegram 文档从其 updates 接口中获取，可参考[此文](https://stackoverflow.com/questions/32423837/telegram-bot-how-to-get-a-group-chat-id)获取
+- **qmsg_key(使用 Qmsg酱时必填)**: [Qmsg酱 key](https://qmsg.zendee.cn/me.html)
+- **ftqq_v1_key(使用 V1 版本 Server酱时必填)**: [Server酱 V1 send key](https://sct.ftqq.com/sendkey), 由于 Server酱已关闭 V1 key 的获取入口，所以实际上只有已持有 V1 send key 的老用户才能使用本渠道。
+- **ftqq_v2_Key(使用 V2 版本 Server酱时必填)**: [Server酱 V2 send key](https://sct.ftqq.com/sendkey)
 
 #### 上传代码
 使用上传 ZIP 压缩包（推荐）的方式将包含构建后程序的函数目录完整上传至平台。
@@ -83,5 +124,5 @@ Failed to test URL https://foo.foo due to error Get "https://foo.foo": dial tcp:
 ![腾讯云账单](https://gmiimg.com/4865b1cbc976589f50f331bda007383a.png)
 大家可以此为根据，假设流量和示例是线性关系来判断自己的用量是否会产生费用。
 
-### 协议
+## 协议
 [MIT](https://github.com/MrEasonYang/url-tester-func/blob/main/LICENSE)
