@@ -9,7 +9,7 @@ keywords: [hexo, hexo-theme-even, 增强版, hexo主题]
 ---
 Even 主题的简洁深得我心，不过有许多常用功能原主题并未直接支持，[前文](https://easonyang.com/2021/07/06/a-better-hexo-theme-even/)中也提到我对这款主题做了些功能和样式上的小优化。鉴于主题作者目前似乎放缓了主题的维护进度，所以我 fork 了原主题，将优化后的主题公开供有需要的朋友直接使用：[MrEasonYang/hexo-theme-even](https://github.com/MrEasonYang/hexo-theme-even) 。
 
-当然我只做了很小的一部分优化，主题作者 [Yuexun Jiang](https://github.com/ahonn) 的主题创建和维护才是最核心的贡献。后续也会尝试通过 PR 的形式将本文内容提交到原主题中。
+当然我只做了很小的一部分优化，主题作者 [Yuexun Jiang](https://github.com/ahonn) 的主题创建和维护才是最核心的贡献。后续也会通过 PR 的形式将本文内容中的通用部分提交到原主题中。
 
 下文为增强版 even 主题的中文使用说明。<!--more-->
 
