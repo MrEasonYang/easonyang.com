@@ -28,7 +28,6 @@ Even 主题的简洁深得我心，不过有许多常用功能原主题并未直
 - 可在页脚添加站点地图链接
 - 在文章列表中使用 h1 标签替换 h2 标签以符合 Bing 等平台的 SEO 要求
 
-# 使用说明
 ## 原主题功能
 原主题的所有功能均支持，可查看原主题文档进行配置：[hexo-theme-even docs](https://github.com/ahonn/hexo-theme-even/wiki)
 
