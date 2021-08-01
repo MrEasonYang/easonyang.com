@@ -19,10 +19,10 @@ Hi，欢迎来到我的博客，我是杨宇晨，长期从事后端研发和架
 Github: [MrEasonYang](https://github.com/MrEasonYang)
 
 <div style="text-align: center; display: block;">
-    <img src="https://github-readme-stats-eason.vercel.app/api?username=MrEasonYang&theme=onedark" alt="Github Stats">
+    <img src="https://easonyang.com/codes/stats" alt="Github Stats">
 </div>
 <div style="text-align: center; display: block;">
-    <img src="https://github-readme-stats-eason.vercel.app/api/top-langs/?username=MrEasonYang&exclude_repo=cstc-oa-system,wechatScratcher,estate-management-system&theme=onedark" alt="Github langs">
+    <img src="https://easonyang.com/codes/langs" alt="Github langs">
 </div>
 
 ### 工作经历
