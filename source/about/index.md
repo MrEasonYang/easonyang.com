@@ -14,8 +14,15 @@ Hi，欢迎来到我的博客，我是杨宇晨，长期从事后端研发和架
 <div style="text-align: center; display: block;">
     <img src="https://gmiimg.com/76dac258761a6a1965809fb51d783e21.md.jpg" alt="敲敲">
 </div>
+
+# Codes
+Github: [MrEasonYang](https://github.com/MrEasonYang)
+
 <div style="text-align: center; display: block;">
     <img src="https://github-readme-stats.vercel.app/api?username=MrEasonYang&theme=onedark" alt="Github Stats">
+</div>
+<div style="text-align: center; display: block;">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MrEasonYang&exclude_repo=cstc-oa-system,wechatScratcher,estate-management-system" alt="Github langs">
 </div>
 
 ### 工作经历
