@@ -47,7 +47,7 @@ Github: [MrEasonYang](https://github.com/MrEasonYang)
 如果你对我的博客折腾历史感兴趣，可以在 [log](/log) 中查看细节。
 
 ### 版权声明
-本站采用*[署名 4.0 国际（CC BY 4.0）](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)*创作共享协议，对本站内容进行转载、节选或用于商业用途等行为需遵循该协议。
+本站采用**[署名 4.0 国际（CC BY 4.0）](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)**创作共享协议，对本站内容进行转载、节选或用于商业用途等行为需遵循该协议。
 
 ### 获取原始文章
 可在 [MrEasonYang/easonyang.com](https://github.com/MrEasonYang/easonyang.com) 中找到本站所有文章的原始文件，欢迎收藏，**转载请遵守「版权声明」**。
