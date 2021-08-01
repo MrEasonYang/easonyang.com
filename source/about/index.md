@@ -14,6 +14,7 @@ Hi，欢迎来到我的博客，我是杨宇晨，长期从事后端研发和架
 <div style="text-align: center; display: block;">
     <img src="https://gmiimg.com/76dac258761a6a1965809fb51d783e21.md.jpg" alt="敲敲">
 </div>
+![Github Stats](https://github-readme-stats.vercel.app/api?username=MrEasonYang&theme=onedark)
 
 ### 工作经历
 - 美团(北京) / 高级后端研发工程师 / 2017.7 ~ ?
@@ -38,6 +39,9 @@ Hi，欢迎来到我的博客，我是杨宇晨，长期从事后端研发和架
 
 ### 版权声明
 本站采用*署名 4.0 国际（CC BY 4.0）*创作共享协议，对本站内容进行转载、节选或用于商业用途等行为需遵循该协议。
+
+### 获取原始文章
+可在 [MrEasonYang/easonyang.com](https://github.com/MrEasonYang/easonyang.com) 中找到本站所有文章的原始文件，欢迎收藏，**转载请遵守「版权声明」**。
 
 ### 支持本站
 欢迎关注微信公众号「[举一得一](https://gmiimg.com/5febe9b1bd572e22c56bfbc1d3bfd1e9.bmp)」获取本站最新文章推送，您的关注、阅读和点赞是我分享的最大动力。
