@@ -53,6 +53,7 @@ busuanzi: true
 1. 安装以来：`npm install hexo-related-popular-posts -S`
 2. 阅读该插件的文档以了解如何进行参数配置 [hexo-related-popular-posts docs](https://github.com/tea3/hexo-related-popular-posts)
 3. 添加以下内容到主题配置文件即可开启推荐功能:
+
 ```yaml
 popular_posts:
   enable: true
@@ -71,6 +72,7 @@ wxOfficialAccount:
 ### 设置 Twitter Cards
 1. 设置 Twitter Cards 后，在 Twitter 中发送的链接可展示预览信息，详见[Twitter cards docs](https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/abouts-cards)
 2. 添加以下内容到主题配置文件即可开启:
+
 ```yaml
 twitter_card:
   style: <See Twitter card docs>
@@ -80,6 +82,7 @@ twitter_card:
 ### 整站字数统计与展示
 1. 安装依赖： `npm install hexo-wordcount -S`
 2. 添加以下内容到 hexo 配置中即可开启
+
 ```yaml
 word_count: true
 ```
