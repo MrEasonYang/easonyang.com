@@ -13,7 +13,7 @@ keywords: [serverless, 腾讯云, scf, telegram, telegram bot, golang, 探活, H
 - 周期性探测指定 HTTP 地址是否可正常响应，并将非正常的探测结果发送至指定即时通讯工具的对话中以实现近乎实时地异步监控网站状态
 - 支持将 Telegram/Server酱 V1(微信)/Server酱 V2(微信)/Qmsg酱 (QQ，支持单聊及群聊)
 - 可识别的包含 Bot 信息的自定义 User-Agent (url-tester-func BOT)
-- 基于腾讯云 Serverless SCF ，部署简单且零成本
+- 基于腾讯云 Serverless SCF ，部署简单且用量小时零成本（具体成本见下文费用说明）
 
 ## 项目地址
 [MrEasonYang/url-tester-func](https://github.com/MrEasonYang/url-tester-func)
