@@ -88,5 +88,3 @@ keywords:
 ## 后记
 
 尽管执着于概念的意义并不是很大，然而这样的深究对理解各种相关文献却极为重要。本文的内容或许有一定的局限性，但在狭义上是正确无误的，希望读者结合实际分析。
-
-本文由 [Eason Yang](https://easonyang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://easonyang.com/about/)。

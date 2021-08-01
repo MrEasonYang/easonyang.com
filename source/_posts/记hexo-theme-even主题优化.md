@@ -9,7 +9,7 @@ keywords: [hexo, theme, even, 主题, 优化]
 ---
 最近经常看到 Hugo 用户使用 [hugo-theme-even](https://themes.gohugo.io/themes/hugo-theme-even/) 主题搭建的博客，简洁的外观和明亮的配色很快吸引了我。随手一搜发现 Hexo 下也有同款主题，就马上给本博客换上了。不过对我个人而言，这款简洁的主题的一些小细节不能使我满意，于是就动手做了些小优化。
 <!--more-->
-# 更丰富的图标库
+## 更丰富的图标库
 此款主题使用的是作者自定义的 iconfont 图标库，如其 FAQ 所述，加入新的图标需要作者的额外支持，目前支持如下图标：
 
 - email
@@ -53,7 +53,7 @@ keywords: [hexo, theme, even, 主题, 优化]
 		...
 ```
 
-# 支持站点访问统计
+## 支持站点访问统计
 这项功能我直接使用[不蒜子](https://busuanzi.ibruce.info/)来实现。在主题配置中新增 `busuanzi` 选项并配置为 `true` ，在负责计数的 `even/layout/_script/counter.swig` 中引入不蒜子的依赖：
 
 ```
@@ -76,7 +76,7 @@ keywords: [hexo, theme, even, 主题, 优化]
   ...
 ```
 
-# 去除百度链接提交
+## 去除百度链接提交
 不知为何，此款主题默认开启了百度链接提交的功能且未提供配置项，页面加载时会尝试加载 `https://zz.bdstatic.com/linksubmit/push.js` ，如果想关闭这一配置只需要在 `even/layout/_script/push.swig` 中的最外层加入一层 if 判断即可，修改后的代码如下：
 
 ```
@@ -98,7 +98,7 @@ keywords: [hexo, theme, even, 主题, 优化]
 {%- endif -%}
 ```
 
-# 给文末加个小广告
+## 给文末加个小广告
 虽然影响阅读体验，而且我个人也不喜欢微信公众号的封闭，但最近还是打算给文章的结尾都加上个微信公众号的二维码，当然目前大部分主题都没有直接支持，需要额外开发。
 
 而对于本款主题，首先可以新增模版 `even/layout/_partial/_post/custom-footer.swig` ，这样我们就能在这里使用 HTML 随意定制文末的样式。
@@ -120,7 +120,7 @@ keywords: [hexo, theme, even, 主题, 优化]
  		...
 ```
 
-# 让文章标题更显眼些
+## 让文章标题更显眼些
 我有个不太好的写作习惯，那就是文章的大章节标题会使用一级标题（对应到 Markdown 就是 # ），这就导致在本款主题的默认样式下，文章标题与章节标题傻傻分不清楚。
 
 对于这个问题，作者在 `even/source/css/_custom/_custom.scss` 提供了 CSS 重写的功能。但由于懒得去找对应的 class 及其 CSS 定义，我直接简单粗暴地选择使用 `!important` 来强制覆盖：
@@ -144,5 +144,5 @@ keywords: [hexo, theme, even, 主题, 优化]
       ...
 ```
 
-# 总结
+## 总结
 总体来说这款主题选用了 hexo 主题实现中常见的 Swig 和 Sass ，对于主题场景来说比之前使用的 [hexo-theme-icarus](https://github.com/ppoffice/hexo-theme-icarus) 的 React 实现要好上手得多。同时目前该项目还在不断接受 PR ，并一直有小幅迭代，未来还是值得期待的。后面我也会把本文涉及的改动通过 PR 或 fork 的形式整理出来供需要的朋友直接使用。

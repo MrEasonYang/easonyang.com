@@ -17,5 +17,3 @@ keywords: [java, intellij idea, maven, loading archetype list]
 在设置中将默认的 `-Xmx512m` 中的512改为合适的值即可。
 
 ![vm-options-for-importer](https://gmiimg.com/396a2d7a71373d892a2137f2a884e68e.png)
-
-本文由 [Eason Yang](https://easonyang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://easonyang.com/about/)。

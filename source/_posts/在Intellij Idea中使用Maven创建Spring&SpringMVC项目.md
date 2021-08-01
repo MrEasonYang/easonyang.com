@@ -331,5 +331,3 @@ public class IndexController {
 运行 Tomcat ，访问 http://127.0.0.1:8080 ，可正常访问，至此整个项目搭建完成。
 
 ![final-test](https://gmiimg.com/4fec304016c1ae6bc56406b37b26a911.png)
-
-本文由 [Eason Yang](https://easonyang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://easonyang.com/about/)。

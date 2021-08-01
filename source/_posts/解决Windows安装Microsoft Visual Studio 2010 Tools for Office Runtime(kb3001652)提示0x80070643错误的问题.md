@@ -110,5 +110,3 @@ MSI (c) (10:E0) [13:14:36:961]: ******* RunEngine:
 在 Windows 更新中也不再提示该补丁的安装，问题得以解决。
 
 ![result](https://gmiimg.com/8737ab9bdaeb857db69bf7ea8b8ab5e0.png)
-
-本文由 [Eason Yang](https://easonyang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://easonyang.com/about/)。
