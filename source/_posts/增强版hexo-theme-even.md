@@ -53,7 +53,7 @@ busuanzi: true
 ```
 
 ### 展示站内热点文章推荐
-1. 安装依赖：`npm install hexo-related-popular-posts -S`
+1. 安装以来：`npm install hexo-related-popular-posts -S`
 2. 阅读该插件的文档以了解如何进行参数配置 [hexo-related-popular-posts docs](https://github.com/tea3/hexo-related-popular-posts)
 3. 添加以下内容到主题配置文件即可开启推荐功能:
 
