@@ -1,6 +1,7 @@
 ---
 title: 为Hexo NexT主题添加字数统计功能
-alias: add-word-count-to-hexo-next
+alias: 2016/11/05/add-word-count-to-hexo-next
+dir: /
 date: 2016-11-05 23:25:30
 updated: 2016-11-05 23:25:30
 tags: [Hexo]

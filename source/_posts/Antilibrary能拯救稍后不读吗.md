@@ -1,6 +1,7 @@
 ---
 title: Antilibrary能拯救稍后不读吗
-alias: anti-library-and-read-it-later
+alias: 2021/03/21/anti-library-and-read-it-later
+dir: /
 date: 2021-03-21 20:47:43
 updated: 2021-03-21 20:47:43
 tags: [思考]

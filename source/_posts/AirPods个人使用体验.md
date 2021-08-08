@@ -1,6 +1,7 @@
 ---
 title: AirPods个人使用体验
-alias: apple-airpods-review
+alias: 2018/05/18/apple-airpods-review
+dir: /
 date: 2018-05-18 01:27:56
 updated: 2018-05-18 01:27:56
 tags: [Apple]

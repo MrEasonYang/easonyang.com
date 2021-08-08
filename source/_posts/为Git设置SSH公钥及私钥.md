@@ -1,6 +1,7 @@
 ---
 title: 为Git设置SSH公钥及私钥
-alias: set-ssh-identity-file-for-git
+alias: 2016/07/31/set-ssh-identity-file-for-git
+dir: /
 date: 2016-07-31 15:45:33
 tags:
   - Windows

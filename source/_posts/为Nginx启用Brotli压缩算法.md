@@ -1,6 +1,7 @@
 ---
 title: 为Nginx启用Brotli压缩算法
-alias: enable-brotli-for-nginx
+alias: 2016/12/02/enable-brotli-for-nginx
+dir: /
 tags:
   - Nginx
   - HTTPS

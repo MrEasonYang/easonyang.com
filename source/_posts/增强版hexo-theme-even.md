@@ -2,7 +2,8 @@
 title: 简易增强版hexo-theme-even
 date: 2021-08-01 20:07:59
 updated: 2021-08-01 20:07:59
-alias: enhanced-hexo-theme-even
+alias: 2021/08/01/enhanced-hexo-theme-even
+dir: /
 tags: [hexo]
 categories: [教程]
 keywords: [hexo, hexo-theme-even, 增强版, hexo主题]

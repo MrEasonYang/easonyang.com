@@ -1,6 +1,7 @@
 ---
 title: 记hexo-theme-even主题优化
-alias: a-better-hexo-theme-even
+alias: 2021/07/06/a-better-hexo-theme-even
+dir: /
 date: 2021-07-06 01:04:28
 updated: 2021-07-06 01:04:28
 tags: [hexo]

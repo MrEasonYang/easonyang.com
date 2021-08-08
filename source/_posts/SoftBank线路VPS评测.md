@@ -1,6 +1,7 @@
 ---
 title: SoftBank线路VPS评测
-alias: softbank-vps-benchmark
+alias: 2021/01/22/softbank-vps-benchmark
+dir: /
 date: 2021-01-22 22:17:38
 updated: 2021-01-22 22:17:38
 tags:

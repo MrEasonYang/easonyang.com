@@ -1,6 +1,7 @@
 ---
 title: 基于腾讯云Serverless的HTTP服务探活函数
-alias: golang-qcloud-serverless-url-tester-func
+alias: 2021/02/21/golang-qcloud-serverless-url-tester-func
+dir: /
 date: 2021-02-21 21:57:38
 updated: 2021-02-21 21:57:38
 tags: [工具, 开源]

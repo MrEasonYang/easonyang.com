@@ -1,6 +1,7 @@
 ---
 title: 解决Intellij Idea下从Maven创建项目时Loading archetype list的问题
-alias: solve-maven-loading-archetype-list-problem-in-intellijidea
+alias: 2016/08/04/solve-maven-loading-archetype-list-problem-in-intellijidea
+dir: /
 date: 2016-08-04 11:16:38
 updated: 2016-08-04 11:16:38
 tags: [Intellijidea, 工具, Java]

@@ -2,7 +2,8 @@
 title: flomo-cli中文说明
 date: 2021-07-17 13:45:43
 updated: 2021-07-17 13:45:43
-alias: flomo-cli-cn-readme
+alias: 2021/07/17/flomo-cli-cn-readme
+dir: /
 tags: [工具, 开源]
 categories: [资源与工具]
 keywords: [flomo, flomo-cli, GitHub, 开源]

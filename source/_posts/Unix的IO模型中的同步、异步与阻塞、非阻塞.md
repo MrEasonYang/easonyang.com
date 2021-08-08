@@ -1,6 +1,7 @@
 ---
 title: Unix的IO模型中的同步、异步与阻塞、非阻塞
-alias: sync-async-blocking-non-blocking-in-unix-io-model
+alias: 2017/02/28/sync-async-blocking-non-blocking-in-unix-io-model
+dir: /
 date: 2017-02-28 14:31:18
 updated: 2017-02-28 14:31:18
 tags:

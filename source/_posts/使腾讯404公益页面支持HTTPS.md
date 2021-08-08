@@ -1,6 +1,7 @@
 ---
 title: 使腾讯404公益页面支持HTTPS
-alias: set-tencent-lostchild-404-page-for-ssl
+alias: 2016/08/06/set-tencent-lostchild-404-page-for-ssl
+dir: /
 date: 2016-08-06 22:55:08
 updated: 2016-08-06 22:55:08
 tags: [Hexo, HTTPS]

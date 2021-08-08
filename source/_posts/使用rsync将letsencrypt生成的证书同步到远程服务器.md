@@ -1,6 +1,7 @@
 ---
 title: 使用rsync将letsencrypt生成的证书同步到远程服务器
-alias: use-rsync-to-sync-letsencrypt-certifications-with-remote-server
+alias: 2016/09/09/use-rsync-to-sync-letsencrypt-certifications-with-remote-server
+dir: /
 date: 2016-09-09 09:11:46
 updated: 2016-09-09 09:11:46
 tags:

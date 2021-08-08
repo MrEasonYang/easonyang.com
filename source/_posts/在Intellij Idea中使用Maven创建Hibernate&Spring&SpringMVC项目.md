@@ -1,6 +1,7 @@
 ---
 title: 在Intellij Idea中使用Maven创建Hibernate&Spring&SpringMVC项目
-alias: use-maven-to-create-a-hibernate-spring-springmvc-project-in-intellijidea
+alias: 2016/09/09/use-maven-to-create-a-hibernate-spring-springmvc-project-in-intellijidea
+dir: /
 date: 2016-09-09 11:34:03
 updated: 2016-09-09 11:34:03
 tags: [Hibernate, Spring, Spring MVC, Java, Intellij Idea, 工具]

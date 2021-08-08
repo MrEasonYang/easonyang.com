@@ -2,7 +2,8 @@
 title: Gracias Messi
 date: 2021-08-06 21:46:06
 updated: 2021-08-06 21:46:06
-alias: gracias-messi
+alias: 2021/08/06/gracias-messi
+dir: /
 tags:
 categories: [随想]
 keywords: [梅西, messi, 巴塞罗那, Barcelona, Barca, 梅西离开巴萨]

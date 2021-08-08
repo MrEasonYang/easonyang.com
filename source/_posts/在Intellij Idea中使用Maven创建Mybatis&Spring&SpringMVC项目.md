@@ -1,6 +1,7 @@
 ---
 title: 在Intellij Idea中使用Maven创建Mybatis&Spring&SpringMVC项目
-alias: use-maven-to-create-a-mybatis-spring-springmvc-project-in-intellijidea
+alias: 2016/08/13/use-maven-to-create-a-mybatis-spring-springmvc-project-in-intellijidea
+dir: /
 date: 2016-08-13 23:10:32
 updated: 2016-08-13 23:10:32
 tags: [Mybatis, Spring, Spring MVC, Java, Intellij Idea, 工具]

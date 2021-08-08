@@ -1,6 +1,7 @@
 ---
 title: 同学，Let's Encrypt的wildcard证书了解下
-alias: letsencrypt-wildcard
+alias: 2018/05/16/letsencrypt-wildcard
+dir: /
 date: 2018-05-16 12:53:24
 updated: 2018-05-16 12:53:24
 tags: [工具, HTTPS]

@@ -1,6 +1,7 @@
 ---
 title: 使用Nginx反代Google Fonts
-alias: use-nginx-to-proxy-google-fonts
+alias: 2016/08/06/use-nginx-to-proxy-google-fonts
+dir: /
 date: 2016-08-06 23:33:55
 updated: 2016-08-06 23:33:55
 tags: [Nginx, Hexo]
