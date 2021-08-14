@@ -7,7 +7,7 @@ tags: [工具]
 categories: [教程]
 keywords: [slidev, slidev教程, ppt, powerpoint]
 ---
-作为一个每次写 VBA 都要查文档的 MS Office 小白，PowerPoint 这种被人成为神器的演示工具对我来说却是阻碍我生产力的绊脚石，我总是无法沉下心做好元素的对齐，也被页码问题搞得焦头烂额。终于有一天，我意识到花费在样式和结构组织上的大量精力是浪费生命的，我应该更专注于 PPT 的核心——内容。如果能有一款基于 Markdown 的工具，让我逃脱格式调整的苦海，潜心编写内容该多好啊！而当我看到 Slidev ，问题终于有了转机。<!--more-->
+作为一个每次写 VBA 都要查文档的 MS Office 小白，PowerPoint 这种被人成为神器的演示工具对我来说却是阻碍我生产力的绊脚石，我总是无法沉下心做好元素的对齐，也被页码问题搞得焦头烂额。终于有一天，我意识到花费在样式和结构组织上的大量精力是浪费生命的，我应该更专注于 PPT 的核心——内容。如果能有一款基于 Markdown 的工具，让我逃脱格式调整的苦海，潜心编写内容该多好啊！而当我看到 Slidev 时，我知道问题终于有了转机。<!--more-->
 
 ## 什么是 Slidev
 > When working with WYSIWYG editors, it is easy to get distracted by the styling options. Slidev remedies that by separating the content and visuals. This allows you to focus on one thing at a time, while also being able to reuse the themes from the community. Slidev does not seek to replace other slide deck builders entirely. Rather, it focuses on catering to the developer community.
