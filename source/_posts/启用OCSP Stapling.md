@@ -1,6 +1,7 @@
 ---
 title: 启用OCSP Stapling
-alias: enable-ocsp-stapling
+alias: 2017/03/19/enable-ocsp-stapling
+dir: /
 tags:
   - HTTPS
   - Nginx

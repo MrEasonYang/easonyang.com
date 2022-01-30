@@ -4,6 +4,11 @@ date: 2016-09-09 15:12:47
 layout: page
 ---
 
+Hi there, 欢迎从以下渠道获取更新推送及精选文章：
+- [Newsletter](https://letter.easonyang.com/)
+- [Telegram Channel](https://t.me/easonyang)
+- [微信公众号](https://gmiimg.com/5febe9b1bd572e22c56bfbc1d3bfd1e9.bmp)
+
 # *关于我*
 <div style="text-align: center; display: block;">
     <img src="https://gmiimg.com/33a343cf3a6ca421465160766571f9bb.jpg" alt="avatar">

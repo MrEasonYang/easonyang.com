@@ -1,6 +1,7 @@
 ---
 title: 借助Referers实现Nginx及Apache防盗链
-alias: use-referers-to-forbid-hotlinking-within-nginx-and-apache
+alias: 2016/09/10/use-referers-to-forbid-hotlinking-within-nginx-and-apache
+dir: /
 date: 2016-09-10 16:53:32
 updated: 2016-09-10 16:53:32
 tags: [Nginx, Apache, Linux]

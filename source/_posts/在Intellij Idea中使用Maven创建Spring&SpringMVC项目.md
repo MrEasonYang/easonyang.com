@@ -1,6 +1,7 @@
 ---
 title: 在Intellij Idea中使用Maven创建Spring&SpringMVC项目
-alias: use-maven-to-create-a-spring-springmvc-project-in-intellijidea
+alias: 2016/08/03/use-maven-to-create-a-spring-springmvc-project-in-intellijidea
+dir: /
 date: 2016-08-03 22:15:51
 updated: 2016-08-03 22:15:51
 tags: [Spring, Spring MVC, Java, Intellij Idea, 工具]

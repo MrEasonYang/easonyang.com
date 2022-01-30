@@ -1,6 +1,7 @@
 ---
 title: Mybatis的*Mapper.xml文件在Intellij Idea项目中的正确位置
-alias: the-right-location-of-mapper-xml-for-mybatis-in-intellijidea
+alias: 2016/08/13/the-right-location-of-mapper-xml-for-mybatis-in-intellijidea
+dir: /
 date: 2016-08-13 22:50:32
 updated: 2016-08-13 22:50:32
 tags: [Java, Intellij Idea, Mybatis,工具]

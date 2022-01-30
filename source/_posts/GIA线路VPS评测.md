@@ -1,6 +1,7 @@
 ---
 title: GIA线路VPS评测
-alias: gia-vps-benchmark
+alias: 2021/01/31/gia-vps-benchmark
+dir: /
 date: 2021-01-31 01:22:18
 updated: 2021-01-31 01:22:18
 tags:

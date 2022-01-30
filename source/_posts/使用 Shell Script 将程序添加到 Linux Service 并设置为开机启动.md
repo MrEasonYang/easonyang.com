@@ -1,6 +1,7 @@
 ---
 title: 使用 Shell Script 将程序添加到 Linux Service 并设置为开机启动
-alias: set-a-program-as-service-and-put-it-on-startup-in-linux
+alias: 2016/07/23/set-a-program-as-service-and-put-it-on-startup-in-linux
+dir: /
 date: 2016-07-23 13:17:37
 tags: [Linux, Shell]
 categories: 运维

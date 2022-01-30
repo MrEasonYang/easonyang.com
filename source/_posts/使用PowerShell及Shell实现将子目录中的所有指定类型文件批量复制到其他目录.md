@@ -1,6 +1,7 @@
 ---
 title: 使用PowerShell及Shell实现将子目录中的所有指定类型文件批量复制到其他目录
-alias: automatically-copy-files-from-various-subdirectory-with-shell-and-powershell
+alias: 2016/07/03/automatically-copy-files-from-various-subdirectory-with-shell-and-powershell
+dir: /
 date: 2016-07-03 14:36:50
 tags: [Linux, Windows, Shell, PowerShell]
 categories: 运维

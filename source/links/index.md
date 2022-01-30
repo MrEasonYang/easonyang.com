@@ -17,3 +17,6 @@ date: 2016-10-18 12:53:43
 
 - [香菇肥牛的博客](https://qing.su/)
 - [zephyr](https://zephyr.moe)
+- [pei你看雪](https://phy0412.top/)
+- [点滴记忆](https://blog.quickso.cn/)
+- [無糖的小宇宙](https://sugarless.top/)

@@ -1,6 +1,7 @@
 ---
 title: 编写Chrome插件来监控URL的变化
-alias: chrome-plugin-to-monitor-url
+alias: 2017/10/24/chrome-plugin-to-monitor-url
+dir: /
 date: 2017-10-24 22:45:22
 updated: 2017-10-24 22:45:22
 tags: [工具, Chrome]

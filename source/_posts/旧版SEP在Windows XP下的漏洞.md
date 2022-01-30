@@ -1,6 +1,7 @@
 ---
 title: 旧版SEP在Windows XP下的漏洞
-alias: the-bug-of-sep
+alias: 2016/07/31/the-bug-of-sep
+dir: /
 tags:
   - Windows
 categories: 运维

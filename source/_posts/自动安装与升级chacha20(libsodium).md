@@ -1,6 +1,7 @@
 ---
 title: 自动安装与升级chacha20(libsodium)
-alias: automatically-install-or-update-libsodium-for-chacha20
+alias: 2016/09/18/automatically-install-or-update-libsodium-for-chacha20
+dir: /
 date: 2016-09-18 08:55:26
 updated: 2016-09-18 08:55:26
 tags:

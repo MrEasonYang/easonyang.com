@@ -1,6 +1,7 @@
 ---
 title: Podistributor播客分发系统介绍
-alias: podistributor-cn-readme
+alias: 2021/02/19/podistributor-cn-readme
+dir: /
 date: 2021-02-19 13:27:02
 updated: 2021-02-19 13:27:02
 tags: [播客, 开源]

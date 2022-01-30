@@ -1,6 +1,7 @@
 ---
 title: 判断 Linux 发行版版本
-alias: get-linux-distribution-in-shell-script
+alias: 2016/07/23/get-linux-distribution-in-shell-script
+dir: /
 date: 2016-07-23 13:03:19
 tags: [Linux, Shell]
 categories: [运维]

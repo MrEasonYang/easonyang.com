@@ -1,6 +1,7 @@
 ---
 title: 使用Nginx将请求转发至Google Analytics实现后端统计
-alias: google-analytics-via-nginx
+alias: 2016/11/04/google-analytics-via-nginx
+dir: /
 date: 2016-11-04 13:09:24
 updated: 2016-11-04 13:09:24
 tags: [Nginx, 工具]

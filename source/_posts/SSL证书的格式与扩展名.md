@@ -1,6 +1,7 @@
 ---
 title: SSL证书的格式与扩展名
-alias: format-and-suffix-of-ssl-certification
+alias: 2017/03/20/format-and-suffix-of-ssl-certification
+dir: /
 date: 2017-03-20 00:10:59
 updated: 2017-03-20 00:10:59
 tags: [HTTPS]

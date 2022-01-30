@@ -1,6 +1,7 @@
 ---
 title: 解决Windows安装Microsoft Visual Studio 2010 Tools for Office Runtime(kb3001652)提示0x80070643错误的问题
-alias: fix-the-installation-failure-of-windows-kb3001652
+alias: 2016/08/10/fix-the-installation-failure-of-windows-kb3001652
+dir: /
 date: 2016-08-10 09:39:18
 updated: 2016-08-10 09:39:18
 tags: [Windows]

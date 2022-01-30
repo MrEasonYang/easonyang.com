@@ -2,7 +2,8 @@
 title: 简易增强版hexo-theme-even
 date: 2021-08-01 20:07:59
 updated: 2021-08-01 20:07:59
-alias: enhanced-hexo-theme-even
+alias: 2021/08/01/enhanced-hexo-theme-even
+dir: /
 tags: [hexo]
 categories: [教程]
 keywords: [hexo, hexo-theme-even, 增强版, hexo主题]
@@ -28,6 +29,7 @@ Even 主题的简洁深得我心，它也是本博客当前的主题。不过有
 - 将版权信息放置于文章内容中以对抗不遵守协议的爬虫
 - 修正了原主题在文章列表中获取访问次数时会发起多次请求的问题
 - 支持配置 Twitter Cards
+- 支持 Open Graph 协议
 - 支持搜狗和神马搜索的站点验证
 - 可在页脚添加站点地图链接
 - 在文章列表中使用 h2 标签替换 h1 标签以符合 Bing 等平台的 SEO 要求
@@ -80,6 +82,15 @@ wxOfficialAccount:
 twitter_card:
   style: <See Twitter card docs>
   creator: <Twitter username>
+```
+
+### 设置 Open Graph
+1. 阅读文档：[Open Graph docs](https://ogp.me/)
+2. 添加以下内容到主题配置文件即可开启:
+
+```yaml
+open_graph:
+  type: <See https://ogp.me/#types>
 ```
 
 ### 整站字数统计与展示

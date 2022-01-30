@@ -1,6 +1,7 @@
 ---
 title: 关于Hexo与其主题NexT的若干小问题与解决
-alias: tips-for-hexo-and-hexo-next
+alias: 2016/08/03/tips-for-hexo-and-hexo-next
+dir: /
 tags:
   - Hexo
 categories:
