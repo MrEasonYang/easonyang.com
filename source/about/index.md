@@ -66,5 +66,4 @@ Github: [MrEasonYang](https://github.com/MrEasonYang)
 - Kvmla （建站推荐香港沙田机房）：[AFF购买](http://www.kvmla.com/aff.php?aff=2497)
 - VIRMACH（建站需谨慎）：[AFF 购买](https://virmach.com/manage/aff.php?aff=891)
 - 搬瓦工（你们懂的）：[AFF 购买](https://bandwagonhost.com/aff.php?aff=10397)
-- 衡天主机（推荐其虚拟主机）：[AFF 购买](http://my.hengtian.org/aff.php?aff=2219)
 <br/>
