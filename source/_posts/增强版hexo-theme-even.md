@@ -122,3 +122,13 @@ shenma_verification:
 ```yaml
 baidu_push: true
 ```
+
+### 修复 Leancloud 计数器
+原始实现使用了旧版的 Leancloud CDN ，其中的 API 目前已经 404 了。为保证计数器可用，主题升级和更换了 CDN 地址，同时支持了自定义域名以解决目前 Leancloud 要求中国区应用需要使用特定域名的问题。
+```yaml
+# LeanCloud
+leancloud:
+  app_id: <Your Leancloud appId>
+  app_key: <Your Leancloud appKey>
+  server_url: <Your Leancloud domain>
+```
