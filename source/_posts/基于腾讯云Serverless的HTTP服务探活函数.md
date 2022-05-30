@@ -125,7 +125,7 @@ Failed to test URL https://foo.foo due to error Get "https://foo.foo": dial tcp:
 ~~![腾讯云账单](https://gmiimg.com/4865b1cbc976589f50f331bda007383a.png)~~
 ~~大家可以此为根据，假设流量和示例是线性关系来判断自己的用量是否会产生费用。~~
 
-**自 2022 年 6 月起，腾讯云的 serverless 产品开始变更收费策略为最低套餐消费，同时原免费额度策略改为新用户限定在前 3 个月内。这样的收费策略通常会导致本文这类监控应用的投入产出比变差，请谨慎使用。**
+**自 2022 年 6 月起，腾讯云的 serverless 产品将原免费额度策略改为新用户限定在前 3 个月内免费，3 个月后采取最低套餐消费模式进行收费。这样的收费策略通常会导致本文这类监控应用的投入产出比变差，请谨慎选择和使用。**
 
 ## 协议
 [MIT](https://github.com/MrEasonYang/url-tester-func/blob/main/LICENSE)
