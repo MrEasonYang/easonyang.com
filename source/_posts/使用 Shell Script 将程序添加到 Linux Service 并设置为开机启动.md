@@ -4,7 +4,7 @@ alias: 2016/07/23/set-a-program-as-service-and-put-it-on-startup-in-linux
 dir: /
 date: 2016-07-23 13:17:37
 tags: [Linux, Shell]
-categories: 运维
+categories: [运维]
 ---
 
 ## 创建一个简单的测试脚本

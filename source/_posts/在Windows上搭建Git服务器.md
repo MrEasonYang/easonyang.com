@@ -5,7 +5,7 @@ dir: /
 tags:
   - Windows
   - Git
-categories: 运维
+categories: [运维]
 date: 2016-07-31 14:36:42
 ---
 

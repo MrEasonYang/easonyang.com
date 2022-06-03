@@ -4,7 +4,7 @@ alias: 2016/07/31/the-bug-of-sep
 dir: /
 tags:
   - Windows
-categories: 运维
+categories: [运维]
 date: 2016-07-31 14:35:44
 ---
 

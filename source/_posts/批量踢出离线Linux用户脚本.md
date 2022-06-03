@@ -4,7 +4,7 @@ alias: 2016/06/17/remove-offline-user-shell
 dir: /
 date: 2016-06-17 16:50:08
 tags: [Linux, Shell]
-categories: 运维
+categories: [运维]
 ---
 
 

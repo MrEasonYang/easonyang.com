@@ -6,7 +6,7 @@ date: 2021-01-22 22:17:38
 updated: 2021-01-22 22:17:38
 tags:
   - Linux
-categories: 评测与体验
+categories: [评测与体验]
 keywords: [搬瓦工, SoftBank, linux, benchmark, 测评, 软银]
 ---
 最近入手了个软银线路的某工的日本机器，此线路是联通友好线路，可惜机器低配高价，性价比很一般。

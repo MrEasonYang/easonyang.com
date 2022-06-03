@@ -7,7 +7,7 @@ tags:
   - Windows
   - Linux
   - Git
-categories: 运维
+categories: [运维]
 ---
 
 在使用 Git 进行代码管理时，如果我们不使用 SSH 公钥及密钥，那么我们就必须在每次执行 Git 命令后键入密码来验明正身，所以为 Git 配置 SSH 公钥及密钥是很有必要的。下文对 Windows 及 Linux 系统，自建 Git 及 Github 均适用。

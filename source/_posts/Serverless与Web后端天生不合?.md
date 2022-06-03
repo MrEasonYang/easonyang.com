@@ -5,7 +5,7 @@ dir: /
 date: 2021-06-05 20:13:49
 updated: 2021-06-05 20:13:49
 tags:
-categories: 架构
+categories: [架构]
 keywords: [serverless, faas, 后端]
 ---
 Serverless/Faas/BaaS 等概念在这几年的技术圈中是绝对的热点词汇之一，国内外众多云厂商也纷纷推出自家的 Serverless 和函数计算产品，微信也依托腾讯云推出了基于 Serverless 和 FaaS 理念的「小程序·云开发」，对应的新型岗位也不断涌现。

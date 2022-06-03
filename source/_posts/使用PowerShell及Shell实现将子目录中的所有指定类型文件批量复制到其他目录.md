@@ -4,7 +4,7 @@ alias: 2016/07/03/automatically-copy-files-from-various-subdirectory-with-shell-
 dir: /
 date: 2016-07-03 14:36:50
 tags: [Linux, Windows, Shell, PowerShell]
-categories: 运维
+categories: [运维]
 ---
 
 最近有个小需求，需要在 windows 系统下，把 mobi 格式的电子书文件从不同子目录里拷贝到同一目录中，由于微软的 Bash for windows 还没出正式版，所以这里先用 PowerShell 解决。

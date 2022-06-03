@@ -3,8 +3,8 @@ title: 基于Revue建立个人Newsletter
 date: 2021-08-15 17:37:25
 updated: 2021-08-15 17:37:25
 alias: create-newsletter-by-revue
-tags: 工具
-categories: 教程
+tags: [工具]
+categories: [教程]
 keywords: [revue, newsletter, 邮件通讯]
 ---
 Newsletter 这个名词我在十几年前刚上网时就有所耳闻，虽然能实现通过推送达到内容直接触达用户的目标，但它既没有像 RSS 一样在开放互联网上广为人知，也没能像微信公众号一般在封闭生态内成为实际上的标准，再加上国内使用邮件作为日常沟通的场景本身就弱，所以多年以来一直是个小众领域。但最近 Twitter 等大公司在 Newsletter 领域动作频频，Newsletter 可谓是老树开新花，在人们对封闭平台越发警惕的今天，相当于去中心化的 Newsletter 受到了越来越多人的青睐。<!--more-->

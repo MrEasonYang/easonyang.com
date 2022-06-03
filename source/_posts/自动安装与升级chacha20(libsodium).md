@@ -8,7 +8,7 @@ tags:
   - Linux
   - Shell
   - 工具
-categories: 运维
+categories: [运维]
 keywords: [chacha20, libsodium, linux, shell, 自动脚本, 运维]
 ---
 

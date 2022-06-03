@@ -7,7 +7,7 @@ updated: 2016-09-09 09:11:46
 tags:
   - Linux
   - Git
-categories: 运维
+categories: [运维]
 keywords: [rsync, letsencrypt, linux, ssh-agent, ssh-add, keychain, expect, 同步远程服务器]
 ---
 

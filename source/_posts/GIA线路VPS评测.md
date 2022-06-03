@@ -6,7 +6,7 @@ date: 2021-01-31 01:22:18
 updated: 2021-01-31 01:22:18
 tags:
   - Linux
-categories: 评测与体验
+categories: [评测与体验]
 keywords: [搬瓦工, SoftBank, linux, benchmark, 测评, 软银]
 ---
 最近折腾个新项目，原价入了某工的 LA GIA 线路机器，这么贵的机器自然是要简单测评记录下的。

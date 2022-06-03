@@ -6,7 +6,7 @@ tags:
   - Python
   - 工具
   - Windows
-categories: 教程
+categories: [教程]
 date: 2016-06-19 22:18:50
 ---
 

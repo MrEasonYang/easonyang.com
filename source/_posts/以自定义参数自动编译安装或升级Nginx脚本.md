@@ -7,7 +7,7 @@ tags:
   - Shell
   - Nginx
   - 工具
-categories: 运维
+categories: [运维]
 date: 2016-07-22 22:12:25
 ---
 # 前言
