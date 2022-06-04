@@ -71,5 +71,3 @@ SSL Labs 的测试仍然是 A+ 得分：
 - [acme.sh](https://github.com/Neilpang/acme.sh)
 - [Dns Lexicon](https://github.com/AnalogJ/lexicon)
 - [开始使用 ECC 证书](https://imququ.com/post/ecc-certificate.html)
-
-本文由 [Eason Yang](https://easonyang.com) 创作，采用*[署名 4.0 国际（CC BY 4.0）创作共享协议](http://creativecommons.org/licenses/by/4.0/deed.zh)*进行许可，[详细声明 ](https://easonyang.com/about/)。

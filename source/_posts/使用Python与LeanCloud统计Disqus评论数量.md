@@ -2,18 +2,9 @@
 title: 使用Python与LeanCloud统计Disqus评论数量
 alias: 2017/01/20/use-python-and-leancloud-to-manage-disqus-comments
 dir: /
-tags:
-  - Python
-  - Hexo
-categories:
-  - 教程
-keywords:
-  - disqus
-  - leancloud
-  - python
-  - hexo next
-  - hexo
-  - 评论数量
+tags: [Python, Hexo]
+categories: [教程]
+keywords: [disqus, leancloud, python, hexo next, hexo, 评论数量]
 date: 2017-01-20 10:35:39
 updated: 2017-01-20 10:35:39
 ---

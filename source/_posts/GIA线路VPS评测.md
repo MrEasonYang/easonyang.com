@@ -4,8 +4,7 @@ alias: 2021/01/31/gia-vps-benchmark
 dir: /
 date: 2021-01-31 01:22:18
 updated: 2021-01-31 01:22:18
-tags:
-  - Linux
+tags: [Linux]
 categories: [评测与体验]
 keywords: [搬瓦工, SoftBank, linux, benchmark, 测评, 软银]
 ---

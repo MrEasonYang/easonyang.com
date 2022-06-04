@@ -2,9 +2,7 @@
 title: 在Windows上搭建Git服务器
 alias: 2016/07/31/set-up-a-git-server-on-windows
 dir: /
-tags:
-  - Windows
-  - Git
+tags: [Windows, Git]
 categories: [运维]
 date: 2016-07-31 14:36:42
 ---

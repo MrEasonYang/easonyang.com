@@ -2,16 +2,9 @@
 title: 为Nginx启用Brotli压缩算法
 alias: 2016/12/02/enable-brotli-for-nginx
 dir: /
-tags:
-  - Nginx
-  - HTTPS
-categories:
-  - 教程
-keywords:
-  - Brotli
-  - nginx压缩算法
-  - 节省流量
-  - 教程
+tags: [Nginx, HTTPS]
+categories: [教程]
+keywords: [Brotli, nginx压缩算法, 节省流量, 教程]
 date: 2016-12-02 00:05:52
 updated: 2016-12-02 00:05:52
 ---

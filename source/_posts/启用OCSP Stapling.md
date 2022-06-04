@@ -2,18 +2,9 @@
 title: 启用OCSP Stapling
 alias: 2017/03/19/enable-ocsp-stapling
 dir: /
-tags:
-  - HTTPS
-  - Nginx
-  - Apache
-categories:
-  - 教程
-keywords:
-  - ocsp stapling
-  - ssl
-  - apache
-  - nginx
-  - ssllabs
+tags: [HTTPS, Nginx, Apache]
+categories: [教程]
+keywords: [ocsp stapling, ssl, apache, nginx, ssllabs]
 date: 2017-03-19 18:37:00
 updated: 2017-03-19 18:37:00
 ---

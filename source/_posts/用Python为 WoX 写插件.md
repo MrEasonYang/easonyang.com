@@ -2,10 +2,7 @@
 title: 用Python为 WoX 写插件
 alias: 2016/06/19/use-python-to-build-a-wox-plugin
 dir: /
-tags:
-  - Python
-  - 工具
-  - Windows
+tags: [Python, 工具, Windows]
 categories: [教程]
 date: 2016-06-19 22:18:50
 ---

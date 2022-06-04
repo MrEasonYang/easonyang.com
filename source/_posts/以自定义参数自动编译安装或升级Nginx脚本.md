@@ -2,11 +2,7 @@
 title: 以自定义参数自动编译安装或升级Nginx脚本
 alias: 2016/07/22/automatically-install-or-update-nginx-with-customed-compile-options
 dir: /
-tags:
-  - Linux
-  - Shell
-  - Nginx
-  - 工具
+tags: [Linux, Shell, Nginx, 工具]
 categories: [运维]
 date: 2016-07-22 22:12:25
 ---

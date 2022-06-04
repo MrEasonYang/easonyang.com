@@ -2,22 +2,12 @@
 title: 关于Hexo与其主题NexT的若干小问题与解决
 alias: 2016/08/03/tips-for-hexo-and-hexo-next
 dir: /
-tags:
-  - Hexo
-categories:
-  - 教程
-keywords:
-  - Hexo
-  - NexT
-  - 教程
-  - sitemap
-  - local search
-  - git
-  - 404
+tags: [Hexo]
+categories: [教程]
+keywords: [Hexo, NexT, 教程, sitemap, local search, git, 404]
 date: 2016-08-03 16:46:52
 updated: 2016-08-03 16:46:52
 ---
-
 
 # Hexo
 

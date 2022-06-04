@@ -4,20 +4,9 @@ alias: 2017/02/28/sync-async-blocking-non-blocking-in-unix-io-model
 dir: /
 date: 2017-02-28 14:31:18
 updated: 2017-02-28 14:31:18
-tags:
-  - I/O
-  - 操作系统
-  - Linux
-categories:
-  - 编程
-keywords:
-  - 同步
-  - 异步
-  - 阻塞
-  - 非阻塞
-  - io
-  - unix
-  - linux
+tags: [I/O, 操作系统, Linux]
+categories: [编程]
+keywords: [同步, 异步, 阻塞, 非阻塞, io, unix, linux]
 ---
 
 ## 前言

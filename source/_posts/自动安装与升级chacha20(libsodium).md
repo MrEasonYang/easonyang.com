@@ -4,10 +4,7 @@ alias: 2016/09/18/automatically-install-or-update-libsodium-for-chacha20
 dir: /
 date: 2016-09-18 08:55:26
 updated: 2016-09-18 08:55:26
-tags:
-  - Linux
-  - Shell
-  - 工具
+tags: [Linux, Shell, 工具]
 categories: [运维]
 keywords: [chacha20, libsodium, linux, shell, 自动脚本, 运维]
 ---

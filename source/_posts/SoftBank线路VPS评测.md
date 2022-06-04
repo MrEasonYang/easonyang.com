@@ -4,8 +4,7 @@ alias: 2021/01/22/softbank-vps-benchmark
 dir: /
 date: 2021-01-22 22:17:38
 updated: 2021-01-22 22:17:38
-tags:
-  - Linux
+tags: [Linux]
 categories: [评测与体验]
 keywords: [搬瓦工, SoftBank, linux, benchmark, 测评, 软银]
 ---

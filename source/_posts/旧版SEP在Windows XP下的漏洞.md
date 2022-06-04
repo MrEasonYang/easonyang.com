@@ -2,8 +2,7 @@
 title: 旧版SEP在Windows XP下的漏洞
 alias: 2016/07/31/the-bug-of-sep
 dir: /
-tags:
-  - Windows
+tags: [Windows]
 categories: [运维]
 date: 2016-07-31 14:35:44
 ---
