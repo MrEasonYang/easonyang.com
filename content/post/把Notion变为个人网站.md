@@ -8,6 +8,7 @@ keywords: ["notion", "个人网站", "fruition", "popsy", "nginx"]
 description: ""
 tags: ["notion"]
 categories: ["course"]
+images: ["https://gmiimg.com/0d73afaf05c9f7dc8f3935397a996d02.jpg"]
 ---
 「The all-in-one workspace」是 Notion 的自称，它肯定不是最优秀的笔记软件，但一定是当今最强大的内容生产工具之一。除了可玩性很高的数据库功能，Notion 还支持将页面对外公开，即可以通过简单地启用分享来获取到可在互联网上直接访问的链接。不过免费版不支持为被分享页面配置 SEO ，而且即使是付费版也尚未支持自定义域名。
 
