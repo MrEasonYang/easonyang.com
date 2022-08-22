@@ -11,12 +11,11 @@ date: 2016-10-18 12:53:43
 
 ## 朋友的博客
 
-- [Sumail Lee](http://sumail-lee.com/)
+已经没朋友还在写博客了...
 
 ## 友情链接
 
 - [香菇肥牛的博客](https://qing.su/)
 - [zephyr](https://zephyr.moe)
-- [pei你看雪](https://phy0412.top/)
-- [点滴记忆](https://blog.quickso.cn/)
-- [無糖的小宇宙](https://pnkx.top/)
+- [pei你看雪](https://pnkx.top/)
+- [無糖的小宇宙](https://sugarless.top/)
