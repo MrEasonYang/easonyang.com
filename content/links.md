@@ -19,3 +19,5 @@ date: 2016-10-18 12:53:43
 - [zephyr](https://zephyr.moe)
 - [pei你看雪](https://pnkx.top/)
 - [無糖的小宇宙](https://sugarless.top/)
+- [kok的笔记本](https://wocai.de/)
+- [Godruoyi](https://godruoyi.com/)
