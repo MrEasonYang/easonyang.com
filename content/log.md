@@ -3,7 +3,8 @@ title: console.log
 date: 2016-10-18 15:23:09
 ---
 ## 2022
-- 7月31日：整站由 Hexo 迁移至 Hugo。主题继续使用同源的 [hugo-theme-even](https://github.com/olOwOlo/hugo-theme-even)。
+- 11月29日：将评论系统由 utterances 迁移至 giscus
+- 7月31日：整站由 Hexo 迁移至 Hugo。主题继续使用同源的 [hugo-theme-even](https://github.com/olOwOlo/hugo-theme-even)
 
 ## 2021
 
