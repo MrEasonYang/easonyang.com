@@ -9,6 +9,8 @@ keywords: [revue, newsletter, 邮件通讯]
 ---
 Newsletter 这个名词我在十几年前刚上网时就有所耳闻，虽然能实现通过推送达到内容直接触达用户的目标，但它既没有像 RSS 一样在开放互联网上广为人知，也没能像微信公众号一般在封闭生态内成为实际上的标准，再加上国内使用邮件作为日常沟通的场景本身就弱，所以多年以来一直是个小众领域。但最近 Twitter 等大公司在 Newsletter 领域动作频频，Newsletter 可谓是老树开新花，在人们对封闭平台越发警惕的今天，相当于去中心化的 Newsletter 受到了越来越多人的青睐。<!--more-->
 
+> 2023 年更新：Revue 随着 Twitter 被收购已经[决定关闭了](http://help.getrevue.co/en/articles/6819675-we-ve-made-the-difficult-decision-to-shut-down-revue)，很可惜也很无奈。
+
 ## 为什么要写 Newsletter
 那么为什么要写 Newsletter 呢？从我个人订阅的 Newsletter 来看，大概可以总结为以下几个目的，如果这些目的中有一个或几个正好符合你心中的内容分发方式，那么你也应该尝试写写 Newsletter ：
 - **去中心化的知识付费**：头部的 Newsletter 作者其实通过建立付费的 Newsletter 项目并提供独家内容赚得了不少收入，而使用 Newsletter 作为知识付费渠道非常灵活，既可以省去知识星球、知乎等中间商的抽成，也可以避免严苛审查以提供更多内容。（当然本文介绍的 Revue 的收费机制并不符合这一特征）
