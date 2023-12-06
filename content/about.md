@@ -23,10 +23,10 @@ Hi，欢迎来到我的博客，我是杨宇晨，长期从事后端研发和架
 Github: [MrEasonYang](https://github.com/MrEasonYang)
 
 <div style="text-align: center; display: block;">
-    <img src="https://easonyang.com/coding/stats" alt="Github Stats">
+    <img src="https://me-stats.easonyang.com/coding/stats" alt="Github Stats">
 </div>
 <div style="text-align: center; display: block;">
-    <img src="https://easonyang.com/coding/langs" alt="Github langs">
+    <img src="https://me-stats.easonyang.com/coding/langs" alt="Github langs">
 </div>
 
 ### 工作经历
