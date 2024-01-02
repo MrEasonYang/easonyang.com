@@ -21,3 +21,4 @@ date: 2016-10-18 12:53:43
 - [無糖的小宇宙](https://sugarless.cn/)
 - [kok的笔记本](https://wocai.de/)
 - [Godruoyi](https://godruoyi.com/)
+- [blog.zshnb.com](https://blog.zshnb.com/)
