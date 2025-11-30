@@ -9,12 +9,8 @@ Hi there, 欢迎从以下渠道获取更新推送及精选文章：
 - [微信公众号](https://gmiimg.com/5febe9b1bd572e22c56bfbc1d3bfd1e9.bmp)
 
 # *关于我*
-<div style="text-align: center; display: block;">
-    <img src="https://gmiimg.com/33a343cf3a6ca421465160766571f9bb.jpg" alt="avatar">
-</div>
-
 Hi，欢迎来到我的博客，我是杨宇晨，长期从事后端研发和架构设计方面的工作，对技术和产品有一些自己的感悟和沉淀，这也是本博客所包含的主要内容。
-在生活中，我还是一名铲屎官，养了只小猫叫敲敲（这个奇怪的名字来源于当年的谐音梗，全称是「敲敲敲可爱」，哈哈哈），想看「猫片」或交流养猫经验的朋友可以通过 [TG](https://t.me/MrEasonYang) 及[微信](https://gmiimg.com/957b885562f45611bed91407e1cebf2c.jpg)与我私聊，或者也可以关注我的 [twitter](https://twitter.com/mr_easonyang) 。
+在生活中，我还是一名铲屎官，养了只小猫叫敲敲（这个奇怪的名字来源于当年的谐音梗，全称是「敲敲敲可爱」，哈哈哈），想看「猫片」或交流养猫经验的朋友可以通过 [TG](https://t.me/MrEasonYang) 与我私聊，或者也可以关注我的 [twitter](https://twitter.com/mr_easonyang) 。
 <div style="text-align: center; display: block;">
     <img src="https://gmiimg.com/76dac258761a6a1965809fb51d783e21.md.jpg" alt="敲敲">
 </div>
