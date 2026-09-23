@@ -33,13 +33,11 @@ Github: [MrEasonYang](https://github.com/MrEasonYang)
 - Twitter:  [mr_easonyang](https://twitter.com/mr_easonyang)
 - Github: [MrEasonYang](https://github.com/MrEasonYang)
 - 微信公众号: [举一得一(ju1de1)](https://gmiimg.com/5febe9b1bd572e22c56bfbc1d3bfd1e9.bmp)
-- 微信：[realEasonYang](https://gmiimg.com/957b885562f45611bed91407e1cebf2c.jpg)
 - Telegram：[MrEasonYang](https://t.me/MrEasonYang)
-- 工作邮箱（简历投递）: yangyuchen03#meituan.com
 <br/>
 
 # *招聘*
-我目前在美团平台北京侧工作，团队长期招募 Java 后端高级工程师，我们既有快速增长、挑战不断的新业务，也有 QPS/TPS 超高的大流量项目，欢迎感兴趣的小伙伴通过邮件或微信沟通。
+我目前在北京某厂工作，团队长期招募 Java 后端高级工程师，我们既有快速增长、挑战不断的新业务，也有 QPS/TPS 超高的大流量项目，欢迎感兴趣的小伙伴通过邮件或微信沟通。
 <br/>
 
 # *关于本站*
